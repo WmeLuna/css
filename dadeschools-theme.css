@@ -1,0 +1,73 @@
+body.v4master {
+  background: #000;
+  background-image: url(https://github.com/WmeLuna/WmeLuna.github.io/raw/main/v462-n-130-textureidea_1.jpg) !important;
+}
+
+
+body[wmeready] #pageWrapper, body[wmeready] #pageShadow {
+  width: 100% !important;
+  padding-top: unset !important;
+  padding-bottom: unset !important;
+}
+body[wmeready] #s4-ribbonrow {
+  height: 30px !important;
+}
+body[wmeready] #s4-ribbonrow {
+    background: #0a2d46 !important;
+}
+body[wmeready] {
+  margin-bottom: 0 !important;
+}
+
+
+#pageShadow {
+background-image: unset !important;
+}
+#s4-workspace {
+  filter: invert(1) !important;
+}
+#s4-workspace img {
+  filter: invert(1) !important;
+}
+
+body #s4-ribbonrow {
+ background: url(https://mdcpsportalapps2.dadeschools.net/AppsSitesLinks/Images/ToolbarThemes/Blue/toolbar_bkg.png) repeat-x top !important;
+}
+
+#pageWrapper, #pageShadow {
+  width: 90% !important;
+}
+.s4-nosetwidth {
+  width: unset !important;
+}
+#s4-workspace {
+  width: 100% !important;
+}
+
+body div#myToolbar #leftCorner {
+background: url(https://mdcpsportalapps2.dadeschools.net/AppsSitesLinks/Images/ToolbarThemes/Blue/toolbar_left_corner.png)
+}
+body div#myToolbar #rightCorner {
+  background: url(https://mdcpsportalapps2.dadeschools.net/AppsSitesLinks/Images/ToolbarThemes/Blue/toolbar_right_corner.png)
+}
+body div#myToolbar #centerBkg {
+  background: url(https://mdcpsportalapps2.dadeschools.net/AppsSitesLinks/Images/ToolbarThemes/Blue/toolbar_bkg.png)
+}
+body span.menu_title {
+  border: 0;
+}
+body span.menu_title a{
+  border: 0;
+  color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+body:not([wmeready]) #pageShadow::after{content:'Please install DadeCSSBase from https://git.io/JKnWJ in order to have the theme work properly';background:#000;position:fixed;z-index:5;right:0;bottom:0;display:flex;align-items:center;max-width:225px;line-height:normal;padding:15px 0 15px 60px;margin-right:10px;margin-bottom:10px;border-left:2px solid #540488;border-radius:2px;color:rgba(255,255,255,.65);background-image:url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==);background-repeat:no-repeat;background-size:35px;background-position:10px center}
