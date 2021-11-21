@@ -1,12 +1,12 @@
 @import "https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css";
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css";
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css";
-@import url(https://wmeluna.com/css/disc-annoy.css);
-@import url(https://wmeluna.com/css/disc-badges.css);
+@import url(https://css.wmeluna.com/disc-annoy.css);
+@import url(https://css.wmeluna.com/disc-badges.css);
 @import url(https://xhylo.github.io/BetterSettings/BetterSettings.css);
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
-@import url("https://wmeluna.com/css/disc-web-warning.css");
-@import url("https://wmeluna.com/css/monaco.css");
+@import url("https://css.wmeluna.com/disc-web-warning.css");
+@import url("https://css.wmeluna.com/monaco.css");
     
     
 :root {
