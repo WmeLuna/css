@@ -1,4 +1,4 @@
-@import "https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css";
+@import "https://luckfire.github.io/amoled-cord/src/support/compiled.css";
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css";
 @import "https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css";
 @import url(https://css.wmeluna.com/disc-annoy.css);
@@ -7,6 +7,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://css.wmeluna.com/disc-web-warning.css");
 @import url("https://css.wmeluna.com/monaco.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
     
     
 :root {
@@ -16,47 +17,6 @@
     --settingsmodalbackground: transparent;
     --settingsmodalwidth: 960px;
     --settingsmodalheight: 80vh;
-    --blurple-replace: #7289DA;
-    --background-primary: #080808;
-    --background-secondary: #050505;
-    --background-secondary-alt: #0f0f0f;
-    --background-tertiary: #000;
-    --background-accent: #0f0f0f;
-    --background-floating: #000;
-    --userarea-background: var(--background-tertiary);
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --elevation-low: 0 1px 0 rgba(40,40,50,0.2),0 1.5px 0 rgba(60,60,70,0.05),0 2px 0 rgba(40,40,50,0.05);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --channels-default: #969696;
-    --channeltextarea-background: #191919;
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --activity-card-background: #0f0f0f;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #4b4b4b;
-    --background-modifier-hover: rgba(50,50,50,0.16);
-    --background-modifier-active: rgba(50,50,50,0.24);
-    --background-modifier-selected: rgba(50,50,50,0.32);
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --text-link: #00b0f4;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
-    --deprecated-panel-background: #292b2f;
-    --deprecated-card-bg: rgba(32,34,37,0.6);
-    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
-    --deprecated-store-bg: #36393f;
-    --deprecated-quickswitcher-input-background: #72767d;
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(0,0,0,0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
-    --background-accent-1: #0f0f0f;
-    --background-accent-3: #0f0f0f;
-    --background-floating-2: rgba(0,0,0,0.2)
 }
 
 /*
