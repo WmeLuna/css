@@ -2,9 +2,10 @@
 .theme-light .side-8zPYf6 div:not([aria-controls=appearance-tab]) {
     display: none;
 }
+/*
 .theme-light .children-rWhLdy div:not(.marginTop8-1DLZ1n):not([role="radiogroup"]) {
     display: none;
-}
+}*/
 .theme-light .children-rWhLdy>.marginTop8-1DLZ1n:nth-child(2)>div>div[tabindex="-1"]:not(:nth-child(3)):not(.info-3LOr12) {
     border: 2px solid #f04747;
     animation: settingsflash 1s ease infinite;
