@@ -1,5 +1,5 @@
 /*No light (additional to the next item)*/
-.theme-light .side-8zPYf6 div:not([aria-controls=Appearance-tab]) {
+.theme-light .side-8zPYf6 div:not([aria-controls=appearance-tab]) {
     display: none;
 }
 .theme-light .children-rWhLdy div:not(.marginTop40-i-78cZ):not([role="radiogroup"]) {
