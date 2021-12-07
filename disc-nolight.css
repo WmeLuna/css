@@ -2,25 +2,25 @@
 .theme-light .side-8zPYf6 div:not([aria-controls=appearance-tab]) {
     display: none;
 }
-.theme-light .children-rWhLdy div:not(.marginTop40-i-78cZ):not([role="radiogroup"]) {
+.theme-light .children-rWhLdy div:not(.marginTop8-1DLZ1n):not([role="radiogroup"]) {
     display: none;
 }
-.theme-light .children-rWhLdy>.marginTop40-i-78cZ:nth-child(2)>div>div[tabindex="-1"]:not(:nth-child(3)):not(.info-3LOr12) {
+.theme-light .children-rWhLdy>.marginTop8-1DLZ1n:nth-child(2)>div>div[tabindex="-1"]:not(:nth-child(3)):not(.info-3LOr12) {
     border: 2px solid #f04747;
     animation: settingsflash 1s ease infinite;
     display: block;
     height: 100%;
 }
 
-.theme-light .children-rWhLdy>.marginTop40-i-78cZ:nth-child(2)>div>div[tabindex="-1"]:not(:nth-child(3)) > * {
+.theme-light .children-rWhLdy>.marginTop8-1DLZ1n:nth-child(2)>div>div[tabindex="-1"]:not(:nth-child(3)) > * {
     color: var(--text-normal);
     display: block !important;
 }
-.theme-light .children-rWhLdy div:not(.marginTop40-i-78cZ):not([role="radiogroup"]) .info-3LOr12 {
+.theme-light .children-rWhLdy div:not(.marginTop8-1DLZ1n):not([role="radiogroup"]) .info-3LOr12 {
     color: var(--text-normal);
     display: block !important;
 }
-.theme-light .children-rWhLdy div:not(.marginTop40-i-78cZ):not([role="radiogroup"]) .info-3LOr12 .title-3BE6m5{
+.theme-light .children-rWhLdy div:not(.marginTop8-1DLZ1n):not([role="radiogroup"]) .info-3LOr12 .title-3BE6m5{
     color: var(--text-normal);
     display: block !important;
 }
