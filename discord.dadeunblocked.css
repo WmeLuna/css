@@ -1,0 +1,20 @@
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+/*@import url("https://xhylo.github.io/BetterSettings/BetterSettings.css");*/
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://css.wmeluna.com/monaco.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://css.wmeluna.com/disc-annoy.css");
+/*@import url("https://css.wmeluna.com/disc-web-warning.css");*/
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://nyri4.github.io/Discolored/main.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://crearts-community.github.io/Context-Icons/theme.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css");
+@import url("https://wmealtapi.herokuapp.com/api/cor/https://discord-addons.github.io/discord-addons/download-themes-here/AmoledDarkThemeOptimized/AmoledDarkThemeOptimized.theme.css");
+
+:root {
+    --accentcolor: 163,47,194;
+    --accentcolor2: 225,115,180;
+    --linkcolor: 190,60,220;
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: 960px;
+    --settingsmodalheight: 80vh;
+}
