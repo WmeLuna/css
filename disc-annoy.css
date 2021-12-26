@@ -1,26 +1,16 @@
 @import url("https://css.wmeluna.com/disc-nolight.css");
 /*@import url("https://css.wmeluna.com/disc-lightcord.css"); lightcord no longer works to log in... commented out as it may continue to work later?*/
 
-
 .info-1VyQPT .colorMuted-HdFt4q.size12-3cLvbJ:not(.line-3ColD0) {
     display: none
 }
-.notice-3bPHh-, .connectedAccountNameInner-2q3MVf .connectedAccountVerifiedIcon-2cA82O,#bd-pub-li,.markdown-hover, .monaco-editor .minimap, .welcomeCTAButtonOuter-2VwxSF, .container-JHR0NT, .loadingIconWrapper-PsVJ9m,[aria-label="Open GIF picker"],[aria-label="Open sticker picker"],[aria-label="Send a gift"],[href="/discovery"],a[href="https://support.discord.com"],[aria-label="Inbox"] {
+
+#bd-pub-li,.clickable-3rdHwn[aria-label="Update Ready!"],.connectedAccountNameInner-2q3MVf .connectedAccountVerifiedIcon-2cA82O,.container-JHR0NT,.loadingIconWrapper-PsVJ9m,.markdown-hover,.monaco-editor .minimap,.notice-3bPHh-,.socialLinks-3jqNFy [title=BetterDiscord],.welcomeCTAButtonOuter-2VwxSF,[aria-label="Open GIF picker"],[aria-label="Open sticker picker"],[aria-label="Send a gift"],[aria-label=Inbox],[href="/discovery"],a[href="https://support.discord.com"] {
     display: none
 }
-.scroller-1Bvpku > div:nth-last-child(2) {
-    display: none;
-}
 
-.socialLinks-3jqNFy [title="BetterDiscord"] {
-    display: none;
-}
-
-.clickable-3rdHwn[aria-label="Update Ready!"] {
-    display: none;
-}
-.welcomeCTAButtonOuter-2VwxSF {
-    display : none
+.scroller-1Bvpku>div:nth-last-child(2) {
+    display: none
 }
 
 /* https://ptb.discord.com/channels/86004744966914048/836694789898109009/866219449764675604 */
