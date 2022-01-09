@@ -4,11 +4,13 @@
 @import url("https://css.wmeluna.com/BetterSettings.css");
 @import url("https://css.wmeluna.com/monaco.css");
 @import url("https://css.wmeluna.com/disc-annoy.css");
-@import url("https://css.wmeluna.com/disc-web-warning.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
 @import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css");
+@import url("https://discord-theme-addons.github.io/refined-user-connections/src/support/compiled.css");
 @import url("https://discord-addons.github.io/discord-addons/download-themes-here/AmoledDarkThemeOptimized/AmoledDarkThemeOptimized.theme.css");
+@import url("https://discord-addons.github.io/discord-addons/download-themes-here/TypingAtTopOfChatBox/TypingAtTopOfChatBox.theme.css");
+@import url("download-themes-here/TextareaMaxHeightModifier/TextareaMaxHeightModifier.theme.css");
 @import url("https://crearts-community.github.io/Friends-Grid/friends-grid.theme.css");
 
 
@@ -20,3 +22,6 @@
     --settingsmodalwidth: 1100px;
     --settingsmodalheight: 80vh;
 }
+
+
+/*@import url("https://css.wmeluna.com/disc-web-warning.css");/**/
