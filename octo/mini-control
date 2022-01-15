@@ -1,0 +1,21 @@
+#control:not(.active) {
+display: block;
+position: fixed;
+bottom: 10px;
+right: 10px;
+background: #2f3136;
+padding: 10px;
+border-radius:5px;
+z-index: 5;
+}
+
+#control:not(.active) h1{
+margin-top: 0;
+}
+
+#control:not(.active) .custom_section, #control:not(.active) #control-jog-feedrate,#control:not(.active) #control-jog-extrusion,#control:not(.active) #control-jog-general{
+  display: none;
+}
+#control:not(.active) .jog-panel {
+  margin-right: 5px;
+}
