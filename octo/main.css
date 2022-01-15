@@ -1,0 +1,7 @@
+:root {
+  --purple: #9072da;
+  --brand-text: " Creality";
+  --brand-url: url(/static/img/tentacle-20x20.png)
+}
+/*MAIN THEME*/
+.themeify.discorded .btn-primary,.themeify.discorded .nav-pills>.active>a,.themeify.discorded .nav-pills>.active>a:hover{background-color:var(--purple)!important}.themeify.discorded .progress .bar,.themeify.discorded .slider .slider-selection{background:var(--purple)!important}span[data-bind="text: appearance.brand"]::after{content:var(--brand-text)}#navbar .navbar-inner .brand span{background-image:var(--brand-url)}#temperature-graph{background:unset}#sidebar,.navbar{position:fixed;overflow:hidden}.navbar{top:0;width:100%;background-color:#000;z-index:9999}#sidebar{left:0}#files_wrapper,#sidebar_plugin_action_command_notification_wrapper,.footer{display:none}.octoprint-container{margin-top:50px}
