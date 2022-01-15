@@ -1,0 +1,16 @@
+#gcode .row-fluid .span5{
+  position: fixed;
+  right: 5px;
+  top: 0;
+  margin-top: 37px;
+  width: 40%;
+}
+#gcode .muted, #gcode .span7, #gcode .help-block {
+  display: none;
+}
+#gcode .hide {
+  display: block;
+}
+#gcode .hide p {
+  margin: 0;
+}
