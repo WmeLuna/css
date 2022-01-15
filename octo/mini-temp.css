@@ -1,0 +1,28 @@
+#temp:not(.active) {
+  display: block;
+  position: fixed;
+  width: 15.7%;
+  bottom: 115px;
+  right: 215px;
+  background: #2f3136;
+  padding: 10px;
+  padding-top: 2px;
+  border-radius:5px;
+  z-index: 7;
+}
+#temp:not(.active)::before {
+content: "Tempatures";
+width: 100%;
+padding: 0;
+font-size: 21px;
+line-height: 40px;
+border: 0;
+border-bottom: 1px solid #e5e5e5;
+font-weight: 400;
+}
+#temp:not(.active) #temperature-table{
+margin: 0;
+}
+#temp:not(.active) tr:not([data-bind]), #temp:not(.active) #temperature-graph, #temp:not(.active) .temperature_target, #temp:not(.active) .temperature_offset{
+  display: none;
+}
