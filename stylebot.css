@@ -1,0 +1,5 @@
+#stylebot {
+  filter: invert(0.9) hue-rotate(180deg) saturate(2);
+  z-index: 9999;
+  position: relative;
+}
