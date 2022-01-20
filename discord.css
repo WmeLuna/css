@@ -11,7 +11,7 @@
 @import url("https://discord-addons.github.io/discord-addons/download-themes-here/AmoledDarkThemeOptimized/AmoledDarkThemeOptimized.theme.css");
 @import url("https://discord-addons.github.io/discord-addons/download-themes-here/TypingAtTopOfChatBox/TypingAtTopOfChatBox.theme.css");
 @import url("https://discordstyles.github.io/RadialStatus/RadialStatus.theme.css");
-@import url("download-themes-here/TextareaMaxHeightModifier/TextareaMaxHeightModifier.theme.css");
+@import url("https://discord-addons.github.io/discord-addons/download-themes-here/TextareaMaxHeightModifier/TextareaMaxHeightModifier.theme.css");
 @import url("https://crearts-community.github.io/Friends-Grid/friends-grid.theme.css");
 
 
@@ -22,7 +22,8 @@
     --settingsmodalbackground: transparent;
     --settingsmodalwidth: 1100px;
     --settingsmodalheight: 80vh;
-    --user-banner: url("https://css.wmeluna.com/static/img/xrhyranchus11.png")
+    --user-banner: url("https://css.wmeluna.com/static/img/xrhyranchus11.png");
+    --rs-phone-visible: none;
 }
 
 
