@@ -1,0 +1,29 @@
+.extraContent, .js-question-header {
+  display: none;
+}
+
+.qButtons.container.invisible {
+  display: block;
+  visibility: visible;
+}
+.waQBox>.qUtility {
+  padding: 0;
+}
+.waQBox {
+  margin: 0 0 0.5em 0;
+  
+
+}
+.waQBox>.qUtility>.standard, .waQBox>.qUtility>.crop {
+  border-top: 1px solid #ccc;
+}
+.waQBox>.qUtility>.qButtons {
+  width: 100%;
+}
+
+.css-ksgbli {
+  display: none;
+}
+[value="Save Progress"] {
+  display: none;
+}
