@@ -7,23 +7,21 @@
   visibility: visible !important;
 }
 .waQBox>.qUtility {
-  padding: 0;
+  padding: 0!important;
 }
 .waQBox {
-  margin: 0 0 0.5em 0;
-  
-
+  margin: 0 0 0.5em 0!important;
 }
 .waQBox>.qUtility>.standard, .waQBox>.qUtility>.crop {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc!important;
 }
 .waQBox>.qUtility>.qButtons {
-  width: 100%;
+  width: 100%!important;
 }
 
 .css-ksgbli {
-  display: none;
+  display: none!important;
 }
 [value="Save Progress"] {
-  display: none;
+  display: none!important;
 }
