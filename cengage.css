@@ -61,7 +61,9 @@
 .css-1d5sdls {
     padding: 15px 15px 30px!important
 }
-
+table.indent, .multBox {
+    box-shadow: 5px 5px 15px 5px #000000!important
+}
 #assignmentWrapper {
     width: 0!important;
     height: 0!important;
