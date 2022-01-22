@@ -1,27 +1,70 @@
-.extraContent, .js-question-header {
-  display: none !important;
+.extraContent,.js-question-header {
+    display: none!important
 }
 
 .qButtons.container.invisible {
-  display: block !important;
-  visibility: visible !important;
-}
-.waQBox>.qUtility {
-  padding: 0!important;
-}
-.waQBox {
-  margin: 0 0 0.5em 0!important;
-}
-.waQBox>.qUtility>.standard, .waQBox>.qUtility>.crop {
-  border-top: 1px solid #ccc!important;
-}
-.waQBox>.qUtility>.qButtons {
-  width: 100%!important;
+    display: block!important;
+    visibility: visible!important
 }
 
-.css-ksgbli {
-  display: none!important;
+#assignmentWrapper,.waQBox>.qUtility {
+    padding: 0!important
 }
-[value="Save Progress"] {
-  display: none!important;
+
+.waQBox {
+    margin: 0 0 .5em!important
+}
+
+.waQBox>.qUtility>.crop,.waQBox>.qUtility>.standard {
+    border-top: 1px solid #ccc!important
+}
+
+.waQBox>.qUtility>.qButtons {
+    width: 100%!important
+}
+
+.css-ksgbli,[value="Save Progress"] {
+    display: none!important
+}
+
+.css-18d3kke,[data-test=dueDate] {
+    display: block!important;
+    position: fixed!important;
+    z-index: 999!important;
+    bottom: 10px!important
+}
+
+.css-18d3kke {
+    right: 10px!important;
+    margin: 0!important
+}
+
+[data-test=dueDate] {
+    right: 173px!important;
+    background-color: #fff!important;
+    width: 15%!important;
+    min-height: unset!important;
+    height: 133px!important
+}
+
+[data-test=dueDate]::before {
+    content: "Due Date:"!important;
+    width: 100%!important;
+    font-weight: 600!important;
+    font-size: 20px!important
+}
+
+[aria-label="Due Date"],[data-test=requestButton] {
+    display: none!important
+}
+
+.css-1d5sdls {
+    padding: 15px 15px 30px!important
+}
+
+#assignmentWrapper {
+    width: 0!important;
+    height: 0!important;
+    margin: 0!important;
+    overflow: hidden!important
 }
