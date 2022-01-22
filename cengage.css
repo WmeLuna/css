@@ -1,10 +1,10 @@
 .extraContent, .js-question-header {
-  display: none;
+  display: none !important;
 }
 
 .qButtons.container.invisible {
-  display: block;
-  visibility: visible;
+  display: block !important;
+  visibility: visible !important;
 }
 .waQBox>.qUtility {
   padding: 0;
