@@ -29,6 +29,8 @@
     --indicator-selected: 163,47,194;
 }
 
-
-
+/*TEMP UNTIL STABLE V3 RELEASE*/
+.platform-linux .app-3xd6d0, .platform-web .app-3xd6d0 {
+    margin-top: 0 !important;
+}
 
