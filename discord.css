@@ -17,7 +17,13 @@
 @import url("https://smarty6788.github.io/Dash2Space/src/dash2space.theme.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Chat/members-list.css");
 @import url("https://raw.githack.com/CorellanStoma/CreArts-Discord/dev/src/source.css");/*TEMP UNTIL STABLE V3 RELEASE*/
-
+/*custom font section*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Poppins&display=swap');
+:root {
+  --font-primary: Quicksand;
+  --font-display: Poppins;
+}
+/**/
 :root {
     --accentcolor: 163,47,194;
     --accentcolor2: 225,115,180;
