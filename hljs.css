@@ -13,10 +13,13 @@
     font-weight: bold;
 }
 
+
+.hljs.gcode::before {
+    content: "GCODE\a";
+}
 .hljs.stylus::before {
     content: "Stylus\a";
 }
-
 .hljs.css::before {
     content: "CSS\a";
 }
