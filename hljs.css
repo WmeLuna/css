@@ -1,0 +1,372 @@
+.hljs::before {
+    content: "";
+    padding: 1px 7px 1px 30px;
+    color: #ccc;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==") !important;
+    background-size: 15px;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    width: calc(100% + 2px);
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.hljs.css::before {
+    content: "CSS\a";
+}
+.hljs.js::before {
+    content: "Javascript\a";
+}
+.hljs.php::before {
+    content: "PHP\a";
+}
+.hljs.java::before {
+    content: "Java\a";
+}
+.hljs.csharp::before {
+    content: "C#\a";
+}
+.hljs.c::before {
+    content: "C\a";
+}
+.hljs.cpp::before {
+    content: "C++\a";
+}
+.hljs.coffeescript::before {
+    content: "Coffeescript\a";
+}
+.hljs.bash::before {
+    content: "Bash\a";
+}
+.hljs.bat::before {
+    content: "Batch\a";
+}
+.hljs.html::before {
+    content: "HTML\a";
+}
+.hljs.apache::before {
+    content: "Apache\a";
+}
+.hljs.diff::before {
+    content: "Diff\a";
+}
+.hljs.http::before {
+    content: "HTTP\a";
+}
+.hljs.json::before {
+    content: "JSON\a";
+}
+.hljs.markdown::before {
+    content: "Markdown\a";
+}
+.hljs.makfile::before {
+    content: "Makefile\a";
+}
+.hljs.nginx::before {
+    content: "Nginx\a";
+}
+.hljs.perl::before {
+    content: "Perl\a";
+}
+.hljs.properties::before {
+    content: "Properties\a";
+}
+.hljs.ruby::before {
+    content: "Ruby\a";
+}
+.hljs.python::before {
+    content: "Python\a";
+}
+.hljs.shell::before {
+    content: "Shell\a";
+}
+.hljs.sql::before {
+    content: "SQL\a";
+}
+.hljs.powershell::before {
+    content: "PowerShell\a";
+}
+.hljs.xml::before {
+    content: "XML\a";
+}
+.hljs.objectivec::before {
+    content: "Objective-C\a";
+}
+.hljs.CSS::before {
+    content: "CSS\a";
+}
+.hljs.py::before {
+    content: "PY\a";
+}
+.hljs.ts::before {
+    content: "TypeScript\a";
+}
+.hljs.typescript::before {
+    content: "TypeScript\a";
+}
+.hljs.scss::before {
+    content: "SCSS\a";
+}
+.hljs.sass::before {
+    content: "SASS\a";
+}
+.hljs.less::before {
+    content: "Less CSS\a";
+}
+.hljs.swift::before {
+    content: "Swift\a";
+}
+.hljs.autoit::before {
+    content: "AutoIt\a";
+}
+.hljs.basic::before {
+    content: "BASIC\a";
+}
+.hljs.lisp::before {
+    content: "Lisp\a";
+}
+.hljs.lua::before {
+    content: "Lua\a";
+}
+.hljs.m::before {
+    content: "M\a";
+}
+.hljs.javascript::before {
+    content: "Javascript\a";
+}
+.hljs.pascal::before {
+    content: "Pascal\a";
+}
+.hljs.clean::before {
+    content: "Clean\a";
+}
+.hljs.erlang::before {
+    content: "Erlang\a";
+}
+.hljs.fsharp::before {
+    content: "F#\a";
+}
+.hljs.kotlin::before {
+    content: "Kotlin\a";
+}
+.hljs.rs::before {
+    content: "Rust\a";
+}
+.hljs.rust::before {
+    content: "Rust\a";
+}
+.hljs.hs::before {
+    content: "Haskell\a";
+}
+.hljs.haskell::before {
+    content: "Haskell\a";
+}
+.hljs.go::before {
+    content: "GO\a";
+}
+.hljs.asciidoc::before {
+    content: "AsciiDoc\a";
+}
+.hljs.yaml::before {
+    content: "YAML\a";
+}
+.hljs.x86asm::before {
+    content: "x86asm\a";
+}
+.hljs.C::before {
+    content: "C\a";
+}
+.hljs.cs::before {
+    content: "C#\a";
+}
+.hljs.toml::before {
+    content: "TOML\a";
+}
+.hljs.scheme::before {
+    content: "Scheme\a";
+}
+.hljs.mips::before {
+    content: "MIPS\a";
+}
+.hljs.MIPS::before {
+    content: "MIPS\a";
+}
+.hljs.vb::before {
+    content: "Visual Basic\a";
+}
+.hljs.VB::before {
+    content: "Visual Basic\a";
+}
+.hljs.r::before {
+    content: "R\a";
+}
+.hljs.R::before {
+    content: "R\a";
+}
+.hljs.abnf::before {
+    content: "ABNF\a";
+}
+.hljs.accesslog::before {
+    content: "accesslog\a";
+}
+.hljs.arduino::before {
+    content: "Arduino\a";
+}
+.hljs.ino::before {
+    content: "Ino\a";
+}
+.hljs.armasm::before {
+    content: "Armasm\a";
+}
+.hljs.arm::before {
+    content: "Arm\a";
+}
+.hljs.avrasm::before {
+    content: "Avrasm\a";
+}
+.hljs.actionscript::before {
+    content: "Actionscript\a";
+}
+.hljs.as::before {
+    content: "AS\a";
+}
+.hljs.alan::before {
+    content: "Alan\a";
+}
+.hljs.angelscript::before {
+    content: "Angelscript\a";
+}
+.hljs.asc::before {
+    content: "asc\a";
+}
+.hljs.apacheconf::before {
+    content: "Apache conf\a";
+}
+.hljs.applescript::before {
+    content: "Applescript\a";
+}
+.hljs.osascript::before {
+    content: "Osascript\a";
+}
+.hljs.arcade::before {
+    content: "Arcade\a";
+}
+.hljs.adoc::before {
+    content: "Adoc\a";
+}
+.hljs.aspectj::before {
+    content: "Aspectj\a";
+}
+.hljs.autohotkey::before {
+    content: "Autohotkey\a";
+}
+.hljs.autoit::before {
+    content: "Autoit\a";
+}
+.hljs.awk::before {
+    content: "awk\a";
+}
+.hljs.mawk::before {
+    content: "mawk\a";
+}
+.hljs.gawk::before {
+    content: "gawk\a";
+}
+.hljs.sh::before {
+    content: "sh\a";
+}
+.hljs.zsh::before {
+    content: "zsh\a";
+}
+.hljs.angelscript::before {
+    content: "Angelscript\a";
+}
+.hljs.bbcode::before {
+    content: "BBcode\a";
+}
+.hljs.blade::before {
+    content: "Blade\a";
+}
+.hljs.bnf::before {
+    content: "BNF\a";
+}
+.hljs.h::before {
+    content: "H\a";
+}
+.hljs.hpp::before {
+    content: "Hpp\a";
+}
+.hljs.cc::before {
+    content: "CC\a";
+}
+.hljs.hh::before {
+    content: "HH\a";
+}
+.hljs[class*='h++']::before {
+    content: "H++\a";
+}
+.hljs[class*='1c']::before {
+    content: "1C\a";
+}
+.hljs[class*='4d']::before {
+    content: "4D\a";
+}
+.hljs.cxx::before {
+    content: "CXX\a";
+}
+.hljs.hxx::before {
+    content: "HXX\a";
+}
+.hljs.cal::before {
+    content: "Cal\a";
+}
+.hljs.cos::before {
+    content: "Cos\a";
+}
+.hljs.cls::before {
+    content: "cls\a";
+}
+.hljs.cmake::before {
+    content: "cmake\a";
+}
+.hljs[class*='cmake.in']::before {
+    content: "cmake.in\a";
+}
+.hljs.coq::before {
+    content: "coq\a";
+}
+.hljs.csp::before {
+    content: "CSP\a";
+}
+.hljs.csv::before {
+    content: "csv\a";
+}
+.hljs.capnproto::before {
+    content: "capnproto\a";
+}
+.hljs.capnp::before {
+    content: "capnp\a";
+}
+.hljs.chaos::before {
+    content: "chaos\a";
+}
+.hljs.kaos::before {
+    content: "kaos\a";
+}
+.hljs.chapel::before {
+    content: "chapel\a";
+}
+.hljs.chpl::before {
+    content: "chpl\a";
+}
+.hljs.cisco::before {
+    content: "cisco\a";
+}
+.hljs.clojure::before {
+    content: "clojure\a";
+}
+.hljs.clj::before {
+    content: "clj\a";
+}
