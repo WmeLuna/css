@@ -1,3 +1,8 @@
+/*MAIN THEMES*/
+@import url("https://womginx.wmeluna.repl.co/main/https://raw.githack.com/CorellanStoma/CreArts-Discord/dev/src/source.css");/*TEMP UNTIL STABLE V3 RELEASE*/
+@import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css");
+
+/*THEME ADDONS*/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
 @import url("https://crearts-community.github.io/Settings-Icons/clients/betterdiscord.css");
@@ -8,7 +13,6 @@
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
 @import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/ModernChannelIndicators.theme.css");
 @import url("https://discord-theme-addons.github.io/refined-user-connections/src/support/RefinedUserConections.theme.css");
-@import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css");
 @import url("https://discordstyles.github.io/RadialStatus/RadialStatus.theme.css");
 @import url("https://crearts-community.github.io/Friends-Grid/friends-grid.theme.css");
 @import url("https://mr-miner1.github.io/Better-Badges/BetterBadges(BD).theme.css");
@@ -16,7 +20,7 @@
 @import url("https://raw.githack.com/Davr1/Discord-CSS-snippets/main/snippets/message_component_scaling.css");
 @import url("https://smarty6788.github.io/Dash2Space/src/dash2space.theme.css");
 @import url("https://therealgwjosh.github.io/Snippets/CSS/Chat/members-list.css");
-@import url("https://raw.githack.com/CorellanStoma/CreArts-Discord/dev/src/source.css");/*TEMP UNTIL STABLE V3 RELEASE*/
+
 /*custom font section*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Poppins&display=swap');
 :root {
