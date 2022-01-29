@@ -218,19 +218,19 @@
     content: "ABNF\a";
 }
 .hljs.accesslog::before {
-    content: "accesslog\a";
+    content: "Access logs\a";
 }
 .hljs.arduino::before {
     content: "Arduino\a";
 }
 .hljs.ino::before {
-    content: "Ino\a";
+    content: "Arduino\a";
 }
 .hljs.armasm::before {
-    content: "Armasm\a";
+    content: "ARM assembler\a";
 }
 .hljs.arm::before {
-    content: "Arm\a";
+    content: "ARM assembler\a";
 }
 .hljs.avrasm::before {
     content: "Avrasm\a";
@@ -239,7 +239,7 @@
     content: "Actionscript\a";
 }
 .hljs.as::before {
-    content: "AS\a";
+    content: "ActionScript\a";
 }
 .hljs.alan::before {
     content: "Alan\a";
@@ -251,19 +251,19 @@
     content: "AngelScript\a";
 }
 .hljs.apacheconf::before {
-    content: "Apache conf\a";
+    content: "Apache\a";
 }
 .hljs.applescript::before {
     content: "Applescript\a";
 }
 .hljs.osascript::before {
-    content: "Osascript\a";
+    content: "Applescript\a";
 }
 .hljs.arcade::before {
     content: "Arcade\a";
 }
 .hljs.adoc::before {
-    content: "Adoc\a";
+    content: "AsciiDoc\a";
 }
 .hljs.aspectj::before {
     content: "Aspectj\a";
