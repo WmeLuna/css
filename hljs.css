@@ -13,7 +13,9 @@
     font-weight: bold;
 }
 
-
+.hljs.ada::before {
+    content: "Ada\a";
+}
 .hljs.gcode::before {
     content: "GCODE\a";
 }
