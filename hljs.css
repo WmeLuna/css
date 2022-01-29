@@ -248,7 +248,7 @@
     content: "Angelscript\a";
 }
 .hljs.asc::before {
-    content: "asc\a";
+    content: "AngelScript\a";
 }
 .hljs.apacheconf::before {
     content: "Apache conf\a";
