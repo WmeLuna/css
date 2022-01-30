@@ -12,17 +12,17 @@
 }
 
 #temp #temperature-graph{
-  display: block;
-  position: fixed;
-  width: 30%;
-  bottom: 10px;
-  right: 493px;
-  height: 43.5%;
-  background: #2f3136;
-  padding: 10px;
-  padding-top: 2px;
-  border-radius:5px;
-  z-index: 7;
+  display: block!important;
+  position: fixed!important;
+  width: 30%!important;
+  bottom: 10px!important;
+  right: 493px!important;
+  height: 43.5%!important;
+  background: #2f3136!important;
+  padding: 10px!important;
+  padding-top: 2px!important;
+  border-radius:5px!important;
+  z-index: 7!important;
 }
 
 #temp::before {
