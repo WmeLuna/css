@@ -1,4 +1,4 @@
-#term:not(.active) {
+#term {
 display: block;
 position: fixed;
 right: 215px;
@@ -9,10 +9,10 @@ background: #2f3136;
 padding: 10px;
 border-radius:5px;
 }
-#term:not(.active) .terminal {
+#term .terminal {
   margin-bottom: 0;
 }
-#term:not(.active) #terminal-sendpanel::before {
+#term #terminal-sendpanel::before {
   content: "Terminal";
   width: 100%;
   padding: 0;
@@ -25,6 +25,8 @@ border-radius:5px;
 
 }
 
-#term:not(.active) #terminal-output, #term:not(.active) small,#term:not(.active) .row-fluid{
+#term #terminal-output,
+#term small,
+#term .row-fluid{
   display: none;
 }
