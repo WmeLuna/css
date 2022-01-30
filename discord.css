@@ -42,6 +42,13 @@
 }
 
 
+
+.nsfwTag-666omg .textBadge-1fdDPJ,
+[class^=numberBadge],
+.mention-3XBnnZ {
+background-color: rgb(var(--accentcolor)) !important;
+}
+
 /*TEMP UNTIL STABLE V3 RELEASE*/
 .platform-linux .app-3xd6d0, .platform-web .app-3xd6d0 {
     margin-top: 0 !important;
