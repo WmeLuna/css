@@ -1,4 +1,4 @@
-#gcode:not(.active) {
+#gcode {
   display: block;
   position: fixed;
   width: 28.4%;
@@ -10,7 +10,7 @@
   border-radius:5px;
   z-index: 9;
 }
-#gcode:not(.active)::before{
+#gcode::before{
   content: "Model Info";
   width: 100%;
   padding: 0;
@@ -21,12 +21,12 @@
   font-weight: 400;
 }
 
-#gcode:not(.active) .canvas_container,
-#gcode:not(.active) .layer-buttons,
-#gcode:not(.active) .progress,
-#gcode:not(.active) .muted,
-#gcode:not(.active) .span5,
-#gcode:not(.active) p[data-bind="html: ui_layerInfo"],
-#gcode:not(.active) h1 {
+#gcode .canvas_container,
+#gcode .layer-buttons,
+#gcode .progress,
+#gcode .muted,
+#gcode .span5,
+#gcode p[data-bind="html: ui_layerInfo"],
+#gcode h1 {
   display: none;
 }
