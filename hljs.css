@@ -273,9 +273,6 @@
 .hljs.autohotkey::before {
     --code: "AutoHotKey\a";
 }
-.hljs.autoit::before {
-    --code: "Autoit\a";
-}
 .hljs.awk::before {
     --code: "Awk\a";
 }
