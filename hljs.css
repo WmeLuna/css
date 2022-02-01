@@ -1,5 +1,5 @@
 .hljs::before {
-    content: "\a";
+    content: var(--code);
     padding: 1px 7px 1px 30px;
     color: #ccc;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==") !important;
@@ -14,368 +14,368 @@
 }
 
 .hljs.ada::before {
-    content: "Ada\a";
+    --code: "Ada\a";
 }
 .hljs.gcode::before {
-    content: "GCODE\a";
+    --code: "GCODE\a";
 }
 .hljs.stylus::before {
-    content: "Stylus\a";
+    --code: "Stylus\a";
 }
 .hljs.css::before {
-    content: "CSS\a";
+    --code: "CSS\a";
 }
 .hljs.js::before {
-    content: "Javascript\a";
+    --code: "Javascript\a";
 }
 .hljs.php::before {
-    content: "PHP\a";
+    --code: "PHP\a";
 }
 .hljs.java::before {
-    content: "Java\a";
+    --code: "Java\a";
 }
 .hljs.csharp::before {
-    content: "C#\a";
+    --code: "C#\a";
 }
 .hljs.c::before {
-    content: "C\a";
+    --code: "C\a";
 }
 .hljs.cpp::before {
-    content: "C++\a";
+    --code: "C++\a";
 }
 .hljs.coffeescript::before {
-    content: "Coffeescript\a";
+    --code: "Coffeescript\a";
 }
 .hljs.bash::before {
-    content: "Bash\a";
+    --code: "Bash\a";
 }
 .hljs.bat::before {
-    content: "Batch\a";
+    --code: "Batch\a";
 }
 .hljs.html::before {
-    content: "HTML\a";
+    --code: "HTML\a";
 }
 .hljs.apache::before {
-    content: "Apache\a";
+    --code: "Apache\a";
 }
 .hljs.diff::before {
-    content: "Diff\a";
+    --code: "Diff\a";
 }
 .hljs.http::before {
-    content: "HTTP\a";
+    --code: "HTTP\a";
 }
 .hljs.json::before {
-    content: "JSON\a";
+    --code: "JSON\a";
 }
 .hljs.markdown::before {
-    content: "Markdown\a";
+    --code: "Markdown\a";
 }
 .hljs.makfile::before {
-    content: "Makefile\a";
+    --code: "Makefile\a";
 }
 .hljs.nginx::before {
-    content: "Nginx\a";
+    --code: "Nginx\a";
 }
 .hljs.perl::before {
-    content: "Perl\a";
+    --code: "Perl\a";
 }
 .hljs.properties::before {
-    content: "Properties\a";
+    --code: "Properties\a";
 }
 .hljs.ruby::before {
-    content: "Ruby\a";
+    --code: "Ruby\a";
 }
 .hljs.python::before {
-    content: "Python\a";
+    --code: "Python\a";
 }
 .hljs.shell::before {
-    content: "Shell\a";
+    --code: "Shell\a";
 }
 .hljs.sql::before {
-    content: "SQL\a";
+    --code: "SQL\a";
 }
 .hljs.powershell::before {
-    content: "PowerShell\a";
+    --code: "PowerShell\a";
 }
 .hljs.xml::before {
-    content: "XML\a";
+    --code: "XML\a";
 }
 .hljs.objectivec::before {
-    content: "Objective-C\a";
+    --code: "Objective-C\a";
 }
 .hljs.CSS::before {
-    content: "CSS\a";
+    --code: "CSS\a";
 }
 .hljs.py::before {
-    content: "PY\a";
+    --code: "PY\a";
 }
 .hljs.ts::before {
-    content: "TypeScript\a";
+    --code: "TypeScript\a";
 }
 .hljs.typescript::before {
-    content: "TypeScript\a";
+    --code: "TypeScript\a";
 }
 .hljs.scss::before {
-    content: "SCSS\a";
+    --code: "SCSS\a";
 }
 .hljs.sass::before {
-    content: "SASS\a";
+    --code: "SASS\a";
 }
 .hljs.less::before {
-    content: "Less CSS\a";
+    --code: "Less CSS\a";
 }
 .hljs.swift::before {
-    content: "Swift\a";
+    --code: "Swift\a";
 }
 .hljs.autoit::before {
-    content: "AutoIt\a";
+    --code: "AutoIt\a";
 }
 .hljs.basic::before {
-    content: "BASIC\a";
+    --code: "BASIC\a";
 }
 .hljs.lisp::before {
-    content: "Lisp\a";
+    --code: "Lisp\a";
 }
 .hljs.lua::before {
-    content: "Lua\a";
+    --code: "Lua\a";
 }
 .hljs.m::before {
-    content: "M\a";
+    --code: "M\a";
 }
 .hljs.javascript::before {
-    content: "Javascript\a";
+    --code: "Javascript\a";
 }
 .hljs.pascal::before {
-    content: "Pascal\a";
+    --code: "Pascal\a";
 }
 .hljs.clean::before {
-    content: "Clean\a";
+    --code: "Clean\a";
 }
 .hljs.erlang::before {
-    content: "Erlang\a";
+    --code: "Erlang\a";
 }
 .hljs.fsharp::before {
-    content: "F#\a";
+    --code: "F#\a";
 }
 .hljs.kotlin::before {
-    content: "Kotlin\a";
+    --code: "Kotlin\a";
 }
 .hljs.rs::before {
-    content: "Rust\a";
+    --code: "Rust\a";
 }
 .hljs.rust::before {
-    content: "Rust\a";
+    --code: "Rust\a";
 }
 .hljs.hs::before {
-    content: "Haskell\a";
+    --code: "Haskell\a";
 }
 .hljs.haskell::before {
-    content: "Haskell\a";
+    --code: "Haskell\a";
 }
 .hljs.go::before {
-    content: "GO\a";
+    --code: "GO\a";
 }
 .hljs.asciidoc::before {
-    content: "AsciiDoc\a";
+    --code: "AsciiDoc\a";
 }
 .hljs.yaml::before {
-    content: "YAML\a";
+    --code: "YAML\a";
 }
 .hljs.x86asm::before {
-    content: "x86asm\a";
+    --code: "x86asm\a";
 }
 .hljs.C::before {
-    content: "C\a";
+    --code: "C\a";
 }
 .hljs.cs::before {
-    content: "C#\a";
+    --code: "C#\a";
 }
 .hljs.toml::before {
-    content: "TOML\a";
+    --code: "TOML\a";
 }
 .hljs.scheme::before {
-    content: "Scheme\a";
+    --code: "Scheme\a";
 }
 .hljs.mips::before {
-    content: "MIPS\a";
+    --code: "MIPS\a";
 }
 .hljs.MIPS::before {
-    content: "MIPS\a";
+    --code: "MIPS\a";
 }
 .hljs.vb::before {
-    content: "Visual Basic\a";
+    --code: "Visual Basic\a";
 }
 .hljs.VB::before {
-    content: "Visual Basic\a";
+    --code: "Visual Basic\a";
 }
 .hljs.r::before {
-    content: "R\a";
+    --code: "R\a";
 }
 .hljs.R::before {
-    content: "R\a";
+    --code: "R\a";
 }
 .hljs.abnf::before {
-    content: "ABNF\a";
+    --code: "ABNF\a";
 }
 .hljs.accesslog::before {
-    content: "Access logs\a";
+    --code: "Access logs\a";
 }
 .hljs.arduino::before {
-    content: "Arduino\a";
+    --code: "Arduino\a";
 }
 .hljs.ino::before {
-    content: "Arduino\a";
+    --code: "Arduino\a";
 }
 .hljs.armasm::before {
-    content: "ARM assembler\a";
+    --code: "ARM assembler\a";
 }
 .hljs.arm::before {
-    content: "ARM assembler\a";
+    --code: "ARM assembler\a";
 }
 .hljs.avrasm::before {
-    content: "Avrasm\a";
+    --code: "Avrasm\a";
 }
 .hljs.actionscript::before {
-    content: "Actionscript\a";
+    --code: "Actionscript\a";
 }
 .hljs.as::before {
-    content: "ActionScript\a";
+    --code: "ActionScript\a";
 }
 .hljs.alan::before {
-    content: "Alan\a";
+    --code: "Alan\a";
 }
 .hljs.angelscript::before {
-    content: "Angelscript\a";
+    --code: "Angelscript\a";
 }
 .hljs.asc::before {
-    content: "AngelScript\a";
+    --code: "AngelScript\a";
 }
 .hljs.apacheconf::before {
-    content: "Apache\a";
+    --code: "Apache\a";
 }
 .hljs.applescript::before {
-    content: "Applescript\a";
+    --code: "Applescript\a";
 }
 .hljs.osascript::before {
-    content: "Applescript\a";
+    --code: "Applescript\a";
 }
 .hljs.arcade::before {
-    content: "Arcade\a";
+    --code: "Arcade\a";
 }
 .hljs.adoc::before {
-    content: "AsciiDoc\a";
+    --code: "AsciiDoc\a";
 }
 .hljs.aspectj::before {
-    content: "Aspectj\a";
+    --code: "Aspectj\a";
 }
 .hljs.autohotkey::before {
-    content: "Autohotkey\a";
+    --code: "Autohotkey\a";
 }
 .hljs.autoit::before {
-    content: "Autoit\a";
+    --code: "Autoit\a";
 }
 .hljs.awk::before {
-    content: "awk\a";
+    --code: "awk\a";
 }
 .hljs.mawk::before {
-    content: "mawk\a";
+    --code: "mawk\a";
 }
 .hljs.gawk::before {
-    content: "gawk\a";
+    --code: "gawk\a";
 }
 .hljs.sh::before {
-    content: "sh\a";
+    --code: "sh\a";
 }
 .hljs.zsh::before {
-    content: "zsh\a";
+    --code: "zsh\a";
 }
 .hljs.angelscript::before {
-    content: "Angelscript\a";
+    --code: "Angelscript\a";
 }
 .hljs.bbcode::before {
-    content: "BBcode\a";
+    --code: "BBcode\a";
 }
 .hljs.blade::before {
-    content: "Blade\a";
+    --code: "Blade\a";
 }
 .hljs.bnf::before {
-    content: "BNF\a";
+    --code: "BNF\a";
 }
 .hljs.h::before {
-    content: "H\a";
+    --code: "H\a";
 }
 .hljs.hpp::before {
-    content: "Hpp\a";
+    --code: "Hpp\a";
 }
 .hljs.cc::before {
-    content: "CC\a";
+    --code: "CC\a";
 }
 .hljs.hh::before {
-    content: "HH\a";
+    --code: "HH\a";
 }
 .hljs[class*='h++']::before {
-    content: "H++\a";
+    --code: "H++\a";
 }
 .hljs[class*='1c']::before {
-    content: "1C\a";
+    --code: "1C\a";
 }
 .hljs[class*='4d']::before {
-    content: "4D\a";
+    --code: "4D\a";
 }
 .hljs.cxx::before {
-    content: "CXX\a";
+    --code: "CXX\a";
 }
 .hljs.hxx::before {
-    content: "HXX\a";
+    --code: "HXX\a";
 }
 .hljs.cal::before {
-    content: "Cal\a";
+    --code: "Cal\a";
 }
 .hljs.cos::before {
-    content: "Cos\a";
+    --code: "Cos\a";
 }
 .hljs.cls::before {
-    content: "cls\a";
+    --code: "cls\a";
 }
 .hljs.cmake::before {
-    content: "cmake\a";
+    --code: "cmake\a";
 }
 .hljs[class*='cmake.in']::before {
-    content: "cmake.in\a";
+    --code: "cmake.in\a";
 }
 .hljs.coq::before {
-    content: "coq\a";
+    --code: "coq\a";
 }
 .hljs.csp::before {
-    content: "CSP\a";
+    --code: "CSP\a";
 }
 .hljs.csv::before {
-    content: "csv\a";
+    --code: "csv\a";
 }
 .hljs.capnproto::before {
-    content: "capnproto\a";
+    --code: "capnproto\a";
 }
 .hljs.capnp::before {
-    content: "capnp\a";
+    --code: "capnp\a";
 }
 .hljs.chaos::before {
-    content: "chaos\a";
+    --code: "chaos\a";
 }
 .hljs.kaos::before {
-    content: "kaos\a";
+    --code: "kaos\a";
 }
 .hljs.chapel::before {
-    content: "chapel\a";
+    --code: "chapel\a";
 }
 .hljs.chpl::before {
-    content: "chpl\a";
+    --code: "chpl\a";
 }
 .hljs.cisco::before {
-    content: "cisco\a";
+    --code: "cisco\a";
 }
 .hljs.clojure::before {
-    content: "clojure\a";
+    --code: "clojure\a";
 }
 .hljs.clj::before {
-    content: "clj\a";
+    --code: "clj\a";
 }
