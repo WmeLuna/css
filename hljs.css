@@ -12,7 +12,9 @@
     box-sizing: border-box;
     font-weight: bold;
 }
-
+.hljs.brainfuck::before, .hljs.bf::before {
+    --code: "Brainfuck\a"
+}
 .hljs.ada::before {
     --code: "Ada\a";
 }
@@ -131,7 +133,7 @@
     --code: "AutoIt\a";
 }
 .hljs.basic::before {
-    --code: "BASIC\a";
+    --code: "Basic\a";
 }
 .hljs.lisp::before {
     --code: "Lisp\a";
@@ -266,28 +268,28 @@
     --code: "AsciiDoc\a";
 }
 .hljs.aspectj::before {
-    --code: "Aspectj\a";
+    --code: "AspectJ\a";
 }
 .hljs.autohotkey::before {
-    --code: "Autohotkey\a";
+    --code: "AutoHotKey\a";
 }
 .hljs.autoit::before {
     --code: "Autoit\a";
 }
 .hljs.awk::before {
-    --code: "awk\a";
+    --code: "Awk\a";
 }
 .hljs.mawk::before {
-    --code: "mawk\a";
+    --code: "Awk\a";
 }
 .hljs.gawk::before {
-    --code: "gawk\a";
+    --code: "Awk\a";
 }
 .hljs.sh::before {
-    --code: "sh\a";
+    --code: "Bash\a";
 }
 .hljs.zsh::before {
-    --code: "zsh\a";
+    --code: "Bash\a";
 }
 .hljs.angelscript::before {
     --code: "Angelscript\a";
@@ -302,19 +304,19 @@
     --code: "BNF\a";
 }
 .hljs.h::before {
-    --code: "H\a";
+    --code: "C\a";
 }
 .hljs.hpp::before {
-    --code: "Hpp\a";
+    --code: "C++\a";
 }
 .hljs.cc::before {
-    --code: "CC\a";
+    --code: "C++\a";
 }
 .hljs.hh::before {
-    --code: "HH\a";
+    --code: "C++\a";
 }
-.hljs[class*='h++']::before {
-    --code: "H++\a";
+.hljs[class*='c++']::before {
+    --code: "C++\a";
 }
 .hljs[class*='1c']::before {
     --code: "1C\a";
@@ -323,25 +325,25 @@
     --code: "4D\a";
 }
 .hljs.cxx::before {
-    --code: "CXX\a";
+    --code: "C++\a";
 }
 .hljs.hxx::before {
-    --code: "HXX\a";
+    --code: "H++\a";
 }
 .hljs.cal::before {
-    --code: "Cal\a";
+    --code: "C/AL\a";
 }
 .hljs.cos::before {
-    --code: "Cos\a";
+    --code: "Cache Object Script\a";
 }
 .hljs.cls::before {
-    --code: "cls\a";
+    --code: "Cache Object Script\a";
 }
 .hljs.cmake::before {
-    --code: "cmake\a";
+    --code: "CMake\a";
 }
 .hljs[class*='cmake.in']::before {
-    --code: "cmake.in\a";
+    --code: "CMake\a";
 }
 .hljs.coq::before {
     --code: "coq\a";
