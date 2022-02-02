@@ -1,0 +1,49 @@
+/*fixed & updated from:
+https://ptb.discord.com/channels/86004744966914048/836694789898109009/836738500744445982*/
+
+#status-picker {
+    margin-bottom: 5px;
+}
+
+#status-picker > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.statusItem-2hiCNB {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.statusItem-2hiCNB > svg {
+    width: 16px;
+    height: auto;
+}
+
+#status-picker .item-1OdjEX {
+    margin: 0;
+    width: 25%;
+}
+
+#status-picker .status-3TYC5W,
+#status-picker .description-3Cwkxk,
+#status-picker .separator-1So4YB:nth-child(2), 
+#status-picker .separator-1So4YB:nth-child(8),
+#status-picker .submenuContainer-3EVTeH {
+    display: none;
+}
+
+#status-picker .separator-1So4YB,
+#status-picker #status-picker-custom-status {
+    display: block;
+    width: 100%;
+}
+
+#status-picker-custom-status .status-3TYC5W {
+    display: block;
+    margin-left: 6px;
+}
