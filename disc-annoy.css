@@ -14,6 +14,11 @@
     display: none
 }
 
+.imageWrapper-oMkQl4:not(a) > .wrapper-1FP9YQ, .imageWrapper-oMkQl4:not(a) {
+  min-width: unset!important;
+}
+
+
 /* https://ptb.discord.com/channels/86004744966914048/836694789898109009/866219449764675604 */
 /*Offline Revamp*/
 .tipTitle-3FYEQp{content:"";font-size: 0px;}
