@@ -59,6 +59,9 @@ background-color: rgb(var(--accentcolor)) !important;
 /*widescreen settings*/
 .sidebarRegion-1VBisG,.sidebarRegionScroller-FXiQOh{justify-content:unset;flex:unset}.contentColumn-1C7as6,.customColumn-2n-oKU,.hero-1aNo0v{max-width:unset}.accountProfileCard-lbN7n-{max-width:750px}.notificationSettings-1U0JsJ{max-width:45%}
 
+/* typing on top of messagebar + animation on someone typing*/
+@keyframes slide-up{0%{transform:translateY(40px)}to{transform:translateY(0)}}.chat-2ZfjoI .form-3gdLxP{display:flex;flex-direction:column-reverse}.chat-2ZfjoI .typing-2J1mQU{animation:.5s slide-up}
+
 /*disable discord's laggy settings animation*/
 .layer-86YKbF{transform:none!important;opacity:1!important}.layers-OrUESM>.layer-86YKbF.animating-1rIrGV,.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *{pointer-events:auto!important;will-change:unset}.animating-1rIrGV.stop-animations{z-index:100!important}
 
