@@ -14,7 +14,7 @@
     display: none
 }
 
-.imageWrapper-oMkQl4:not(a) > .wrapper-1FP9YQ, .imageWrapper-oMkQl4:not(a) {
+:not(.spoilerContainer-3wsC0k) .imageWrapper-oMkQl4:not(a) > .wrapper-1FP9YQ, :not(.spoilerContainer-3wsC0k) .imageWrapper-oMkQl4:not(a) {
   min-width: unset!important;
 }
 
