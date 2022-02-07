@@ -1,12 +1,16 @@
 /* this addon works... not polished tho, this just adds a few things to polish it */
 /*@import url("https://xhylo.github.io/BetterSettings/BetterSettings.css");*/
 .separator-2wx7h6 {display: none;}
+
+/*BD on top*/
 .platform-linux .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > .header-2Kx1US:first-child ~ .separator-2wx7h6 ~ .separator-2wx7h6 ~ .separator-2wx7h6 ~ .separator-2wx7h6,
 .platform-linux .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > .header-2Kx1US:first-child ~ .separator-2wx7h6 ~ .separator-2wx7h6 ~ .separator-2wx7h6 ~ .separator-2wx7h6 ~ * {
     order: -1;
 }
-
+/* GooseMod modules ontop*/
 .platform-web .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > [aria-controls^="gm-"] ~ .header-2Kx1US ,
-.platform-web .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > [aria-controls="gm-custom-css-tab"]{
+.platform-web .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > [aria-controls="gm-fucklytics-tab"] ~ .item-3XjbnG:not([aria-controls="logout-tab"]),
+.platform-web .layer-86YKbF[aria-label="USER_SETTINGS"] .side-2ur1Qk > [aria-controls="gm-fucklytics-tab"]{
     order: -1;
 }
+
