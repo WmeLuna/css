@@ -315,6 +315,9 @@
 .hljs[class*='c++']::before {
     --code: "C++\a";
 }
+.hljs[class*='h++']::before {
+    --code: "C++\a";
+}
 .hljs[class*='1c']::before {
     --code: "1C\a";
 }
