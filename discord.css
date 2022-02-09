@@ -4,7 +4,7 @@
 
 /*THEME ADDONS*/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-/*@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");*/
+@import url("https://scssprox.herokuapp.com/?url=https://github.com/Davr1/powercord-plugin-cards/raw/main/theme.scss");
 @import url("https://crearts-community.github.io/Settings-Icons/clients/betterdiscord.css");
 @import url("https://css.wmeluna.com/BetterSettings.css");
 @import url("https://css.wmeluna.com/monaco.css");
@@ -24,7 +24,6 @@
 @import url("https://scssprox.herokuapp.com/?url=https://raw.github.com/Davr1/Discord-CSS-snippets/main/snippets/message_component_scaling.css");
 @import url("https://smarty6788.github.io/Dash2Space/src/dash2space.theme.css");
 @import url("https://maendisease.github.io/Float/Float.css");
-/*@import url("https://ItsJustJoshDev.github.io/Snippets/CSS/Chat/members-list.css");*/
 
 /*custom font section*/
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Poppins&display=swap');
