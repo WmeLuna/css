@@ -3,6 +3,7 @@
 @import url("https://scssprox.herokuapp.com/?url=https://raw.github.com/CorellanStoma/CreArts-Discord/dev/src/source.css");/*TEMP UNTIL STABLE V3 RELEASE*/
 
 /*THEME ADDONS*/
+@import url('https://zachjmurphy.github.io/Library/Addons/SquircleGuilds/SquircleGuilds.css');
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://scssprox.herokuapp.com/?url=https://github.com/Davr1/powercord-plugin-cards/raw/main/theme.scss");
 @import url("https://crearts-community.github.io/Settings-Icons/clients/betterdiscord.css");
