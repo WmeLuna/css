@@ -37,11 +37,11 @@ Modified from https://leeprky.github.io/snippits/css-snippits/colour-channel-ico
 }
 
 /* Redesigned server unread pill*/
-.wrapper-28eC3z foreignObject{
+/*.wrapper-28eC3z foreignObject{
     border-radius: 15px;
     mask: none;
     -webkit-mask: none;
-}
+}*/
 .item-2LIpTv{
     height: 32px !important;
     width: 50%;
