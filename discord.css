@@ -66,7 +66,5 @@ background-color: rgb(var(--accentcolor)) !important;
 .layer-86YKbF{transform:none!important;opacity:1!important}.layers-OrUESM>.layer-86YKbF.animating-1rIrGV,.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *{pointer-events:auto!important;will-change:unset}.animating-1rIrGV.stop-animations{z-index:100!important}
 
 /*TEMP UNTIL STABLE V3 RELEASE*/
-.platform-linux .app-3xd6d0, .platform-web .app-3xd6d0 {
-    margin-top: 0 !important;
-}
+.platform-linux .app-3xd6d0,.platform-web .app-3xd6d0{margin-top:0!important}.container-2o3qEW,.membersWrap-3NUR2t{border-radius:var(--radius-primary)}.container-2o3qEW,.container-2o3qEW .members-3WRCEx,.container-2o3qEW .members-3WRCEx>div,.membersWrap-3NUR2t,.membersWrap-3NUR2t .members-3WRCEx,.membersWrap-3NUR2t .members-3WRCEx>div{background-color:var(--background-secondary)}
 
