@@ -65,7 +65,9 @@ background-color: rgb(var(--accentcolor)) !important;
 @keyframes slide-up{0%{transform:translateY(40px)}to{transform:translateY(0)}}.chat-2ZfjoI .form-3gdLxP{display:flex;flex-direction:column-reverse}.chat-2ZfjoI .typing-2J1mQU{animation:.5s slide-up}
 
 /*disable discord's laggy settings animation*/
-/*.layer-86YKbF{transform:none!important;opacity:1!important}.layers-OrUESM>.layer-86YKbF.animating-1rIrGV,.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *{pointer-events:auto!important;will-change:unset}.animating-1rIrGV.stop-animations{z-index:100!important}
+.layer-86YKbF{transform:none!important;opacity:1!important}.layers-OrUESM>.layer-86YKbF.animating-1rIrGV,.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *{pointer-events:auto!important;will-change:unset}.animating-1rIrGV.stop-animations{z-index:100!important}
+/*settings modal compatability*/
+.layer-86YKbF.animating-1rIrGV:first-child::after{content:""!important;position:fixed!important;background:#000!important;top:0!important;right:0!important;bottom:0!important;left:0!important;margin:0!important;padding:0!important;opacity:.85!important;z-index:999!important;pointer-events:none!important}
 
 /*TEMP UNTIL STABLE V3 RELEASE*/
 .platform-linux .app-3xd6d0,.platform-web .app-3xd6d0{margin-top:0!important}.container-2o3qEW,.membersWrap-3NUR2t{border-radius:var(--radius-primary)}.container-2o3qEW,.container-2o3qEW .members-3WRCEx,.container-2o3qEW .members-3WRCEx>div,.membersWrap-3NUR2t,.membersWrap-3NUR2t .members-3WRCEx,.membersWrap-3NUR2t .members-3WRCEx>div{background-color:var(--background-secondary)}
