@@ -69,3 +69,5 @@ background-color: rgb(var(--accentcolor)) !important;
 /*TEMP UNTIL STABLE V3 RELEASE*/
 .platform-linux .app-3xd6d0,.platform-web .app-3xd6d0{margin-top:0!important}.container-2o3qEW,.membersWrap-3NUR2t{border-radius:var(--radius-primary)}.container-2o3qEW,.container-2o3qEW .members-3WRCEx,.container-2o3qEW .members-3WRCEx>div,.membersWrap-3NUR2t,.membersWrap-3NUR2t .members-3WRCEx,.membersWrap-3NUR2t .members-3WRCEx>div{background-color:var(--background-secondary)}
 
+/*Win Stuff... not like i can see it but just incase anyone else uses this theme*/
+.titleBar-1it3bQ.typeWindows-2-g3UY::after{content:unset}.titleBar-1it3bQ .wordmarkWindows-2dq6rw{margin-left:unset}:root{--info-skin:"Amoled Purple";--info-author:"CorellanStoma & WmeLuna"}
