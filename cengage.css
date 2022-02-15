@@ -5,10 +5,32 @@
 
 
 /* theme */
+:root {
+    /*--color: rgb(163,47,194);/**/
+    --color: purple;
+    --filt: invert(1) hue-rotate(180deg);
+}
+.css-w71g3k {
+    background: var(--color);
+    filter: var(--filt) !important;
+}
+.css-6nwyf1,.css-6nwyf1:hover, .css-6nwyf1:focus {
+    border-color: var(--color);
+    background-color: var(--color);
+    filter: var(--filt) !important;
+}
+.css-1vr8bhw >path {
+    fill: var(--color) !important;
+    filter: var(--filt) !important;
+}
+.css-vp4w6k:hover, .css-vp4w6k:link, .css-vp4w6k:active, .css-vp4w6k:visited, .css-rzg8pl:hover, .css-rzg8pl:focus, .css-rzg8pl{
+  color: var(--color);
+  filter: var(--filt) !important;
+
 font[color="#dd0000"],
 span[style="color: #dd0000"]
 {
-    color: purple!important;
+    color: var(--color)!important;
 }
 
 
