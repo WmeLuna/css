@@ -31,7 +31,6 @@ font[color="#dd0000"],
 span[style="color: #dd0000"]
 {
     color: var(--color)!important;
-    filter: var(--filt);
 }
 
 
