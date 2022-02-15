@@ -1,3 +1,14 @@
+@import url(https://css.wmeluna.com/darkreader-filter.css);
+
+/* theme */
+font[color="#dd0000"],
+span[style="color: #dd0000"]
+{
+    color: purple!important;
+}
+
+
+/* clean up page*/
 .extraContent,.js-question-header {
     display: none!important
 }
