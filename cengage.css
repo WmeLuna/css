@@ -1,4 +1,8 @@
 @import url(https://css.wmeluna.com/darkreader-filter.css);
+.watexparenimage img {
+    filter:unset!important
+}
+
 
 /* theme */
 font[color="#dd0000"],
