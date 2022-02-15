@@ -18,6 +18,7 @@
   min-width: unset!important;
 }
 
+
 /* Made by WmeLuna, pinned home and favorites buttons */
 /* Needed for proper positioning */.guilds-2JjMmN .scroller-3X7KbA { contain: none !important;} 
 /* Pinned Favorites */.guilds-2JjMmN .scroller-3X7KbA > .listItem-3SmSlK:nth-of-type(2) {position: fixed;z-index: 1;bottom: 20px;}
@@ -28,6 +29,9 @@
 
 /* https://ptb.discord.com/channels/538759280057122817/755005803303403570/940684000668819506 */
 [class*=jumpToPresentBar]{display:contents}[class*=jumpToPresentBar]>button:first-child{display:none}[class*=jumpToPresentBar]>button:last-child{position:absolute;bottom:24px;right:22px;padding:8px!important;height:auto;background-color:var(--background-secondary);border-radius:100px;display:flex;font-size:0;color:transparent;transition:font-size .2s .1s,color .2s,padding .4s .1s}[class*=jumpToPresentBar]>button svg{order:-1;height:24px;width:24px;top:unset;margin:0;color:var(--text-normal);transition:margin .6s}[class*=jumpToPresentBar]:hover>button{padding:8px 18px!important;font-size:14px;color:var(--text-normal);transition:font-size .2s,color .2s .1s,padding .4s}[class*=jumpToPresentBar]:hover>button svg{margin-right:2px;margin-left:-6px}
+
+/* https://ptb.discord.com/channels/86004744966914048/836694789898109009/943280048474038332 */
+@keyframes slide-up{0%{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}.message-2CShn3{animation:slide-up .4s ease}
 
 /*Colored lock in channel icon
 Modified from https://leeprky.github.io/snippits/css-snippits/colour-channel-icons.css*/
