@@ -1,7 +1,7 @@
 @import url(https://css.wmeluna.com/darkreader-filter.css);
 .watexparenimage img {filter:unset!important}
 /*images not darkmoded that are safe to invert*/
-img[alt="WebAssign Plot"]{filter: var(--filter)}
+img[alt="WebAssign Plot"]{filter: var(--filter)!important}
 
 
 /* theme */
