@@ -35,7 +35,7 @@ span[style="color: #dd0000"]
 
 
 /* clean up page*/
-.extraContent,.js-question-header {
+.extraContent,.js-question-header,#studentFooter {
     display: none!important
 }
 
