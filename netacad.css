@@ -1,0 +1,19 @@
+@import url(https://css.wmeluna.com/darkreader-filter.css);
+
+
+:root {
+    
+    --color: purple;
+    --filt: invert(1) hue-rotate(180deg);
+}
+
+.cui .cisco-minisidebar .sidebar {
+    filter: var(--filt) !important
+}
+.cui .sidebar li.sidebar__item {
+    background-color: var(--color)
+}
+.cui a:focus, .cui a:hover,.cui a, .cui .link:focus, .cui .link:hover {
+    color: var(--color) !important;
+    filter: var(--filt)
+}
