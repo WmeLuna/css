@@ -1,0 +1,15 @@
+@import url("https://crearts-community.github.io/CreArts-Discord/clients/betterdiscord.css");
+
+.theme-dark {
+
+--background-primary: black;
+--background-secondary: rgb(20, 20, 20);
+--background-secondary-alt: rgb(28, 28, 28);
+--background-tertiary: rgb(10, 10, 10);
+
+--interactive-normal: #b9bbbe;
+--interactive-hover: #dcddde;
+--interactive-active: #fff;
+--interactive-muted: #4f545c;
+
+}
