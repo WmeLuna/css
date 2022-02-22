@@ -75,9 +75,22 @@ background-color: rgb(var(--accentcolor)) !important;
 /*Win Stuff... not like i can see it but just incase anyone else uses this theme*/
 .titleBar-1it3bQ.typeWindows-2-g3UY::after{content:unset}.titleBar-1it3bQ .wordmarkWindows-2dq6rw{margin-left:unset}:root{--info-skin:"Amoled Purple";--info-author:"CorellanStoma & WmeLuna"}
 
-
+/*armcord custom stuff*/
+.titlebar, #window-controls-container {
+    background-color: var(--background-secondary) !important;
+}
+:root {
+    --armcord-color: var(--text-brand)
+}
+.titlebar {
+border-bottom-left-radius: var(--radius-primary);
+border-bottom-right-radius: var(--radius-primary);
+}
+.withFrame-haYltI {
+    background-color:var(--background-primary)
+}
 /*Name effect*/
-
+/*
 .message-2CShn3[data-user-id="865632950443835392"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[data-author-id="865632950443835392"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
 .message-2CShn3[vz-user-id="865632950443835392"] .username-h_Y3Us,
