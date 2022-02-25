@@ -7,7 +7,7 @@
     --filt: invert(1) hue-rotate(180deg);
 }
 
-.cui .cisco-minisidebar .sidebar, iframe#contentframe {
+.cui .cisco-minisidebar .sidebar, .content tbody {
     filter: var(--filt) !important
 }
 
