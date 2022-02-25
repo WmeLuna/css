@@ -18,3 +18,8 @@
     color: var(--color) !important;
     filter: var(--filt)
 }
+#questions .question.hidden {
+    display: block !important;
+    width: unset !important;
+    height: unset !important;
+}
