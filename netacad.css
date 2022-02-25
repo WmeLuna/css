@@ -7,9 +7,10 @@
     --filt: invert(1) hue-rotate(180deg);
 }
 
-.cui .cisco-minisidebar .sidebar {
+.cui .cisco-minisidebar .sidebar, iframe#contentframe {
     filter: var(--filt) !important
 }
+
 .cui .sidebar li.sidebar__item {
     background-color: var(--color)
 }
