@@ -2,7 +2,7 @@
 .watexparenimage img {filter:unset!important}
 /*images not darkmoded that are safe to invert*/
 img[alt="WebAssign Plot"]{filter: var(--filter)!important}
-
+img[alt="webMathematica generated answer key"]{filter: var(--filter)!important}
 
 /* theme */
 :root {
