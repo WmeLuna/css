@@ -127,21 +127,3 @@ Modified from https://leeprky.github.io/snippits/css-snippits/colour-channel-ico
 @keyframes nochat{
   to{height: 0}
 }
-
-/* https://ptb.discord.com/channels/86004744966914048/836694789898109009/945464297235038249 */
-/* Username Background */
-.headerText-2z4IhQ > span::before {
-  content: ''; 
-  width: calc(100% + 7px); 
-  height: 100%;
-  border-radius: 5px;
-  background-color: currentColor; 
-  opacity: 0.2; 
-  position: absolute; 
-  margin-top: 0px; 
-  z-index: -1;
-  margin-left: -3px;
-}
-.headerText-2z4IhQ > span {
-  margin-left: 3px;
-}
