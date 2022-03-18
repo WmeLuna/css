@@ -13,3 +13,32 @@
 --interactive-muted: #4f545c;
 
 }
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Members                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+/* Background (Members & Channel) */
+.container-NkLXgf,
+.container-2o3qEW,
+.membersWrap-3NUR2t {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+}
+
+/* Spacing */
+.container-2Oqvgx, .container-2o3qEW, .membersWrap-3NUR2t {
+    margin: 0px 10px 0px 10px;
+    width: var(--members-width);
+}
+
+/* No Background */
+.container-2Oqvgx,
+.members-3WRCEx {
+    background: transparent !important;
+}
+
+.members-3WRCEx,
+.members-3WRCEx>div {
+    background-color: transparent;
+}
