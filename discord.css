@@ -98,34 +98,5 @@ border-bottom-right-radius: var(--radius-primary);
 .withFrame-haYltI {
     background-color:var(--background-primary)
 }
-/*Name effect*/
-/*
-.message-2CShn3[data-user-id="865632950443835392"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
-.message-2CShn3[data-author-id="865632950443835392"] > :not(.repliedMessage-3Z6XBG) .username-h_Y3Us,
-.message-2CShn3[vz-user-id="865632950443835392"] .username-h_Y3Us,
-.channel-1Shao0[data-user-id="865632950443835392"] .overflow-1wOqNV,
-.channel-1Shao0[vz-user-id="865632950443835392"] .overflow-1wOqNV,
-.member-2gU6Ar[data-user-id="865632950443835392"] .roleColor-nA7BqX,
-.member-2gU6Ar[vz-user-id="865632950443835392"] .roleColor-nA7BqX,
-.userPopout-2j1gM4[data-user-id="865632950443835392"] .username-3JLfHz,
-.userPopout-2j1gM4[vz-user-id="865632950443835392"] .username-3JLfHz,
-.root-8LYsGj[data-user-id="865632950443835392"] .username-3JLfHz {
-  color: transparent !important;
-  font-weight: bold;
-  background-size: 300%;
-  -webkit-animation: shine-reversed 5s linear infinite;
-          animation: shine-reversed 5s linear infinite;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(-60deg, #5bcefa 20%, #f5a9b8 20%, 40%, white 40%, 60%, #f5a9b8 60%, 80%, #5bcefa 80%);
-}
 
-@-webkit-keyframes shine-reversed {
-    to {
-      background-position: -300% center;
-    }
-  }
-  @keyframes shine-reversed {
-    to {
-      background-position: -300% center;
-    }
-  }
+.bd-sidebar-header,[aria-controls=customcss-tab],[aria-controls=emotes-tab],[aria-controls=pluginrepo-tab],[aria-controls=pluginrepo-tab]+.separator-2wx7h6,[aria-controls=plugins-tab],[aria-controls=settings-tab],[aria-controls=themes-tab],[aria-controls=themes-tab]+.separator-2wx7h6{order:-1}
