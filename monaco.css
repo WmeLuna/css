@@ -1,138 +1,145 @@
-/* this is a modified version of solerized dark and converted to css */
+/* this is a modified version of Amy and converted to css */
 /* everything has a <body> tag on it to make it prioritised*/
-body .monaco-editor .accessibilityHelpWidget { background-color: #252526; color: #ccc; box-shadow: 0 2px 8px #000 }
-body .monaco-editor, body .monaco-editor .inputarea.ime-input, body .monaco-editor .margin, body .monaco-editor-background { background-color: #002b36 }
-body .monaco-editor, body .monaco-editor .inputarea.ime-input { color: #839496 }
-body .monaco-editor .rangeHighlight { background-color: rgba(255,255,255,.04) }
-body .monaco-editor .symbolHighlight { background-color: rgba(234,92,0,.33) }
-body .vs-whitespace { color: #073642!important }
-body .monaco-editor .bracket-match { background-color: rgba(0,100,0,.1); border: 1px solid #888 }
-body .monaco-editor .monaco-editor-overlaymessage .anchor { border-top-color: #007acc }
-body .monaco-editor .monaco-editor-overlaymessage .message { border: 1px solid #007acc; background-color: #063b49 }
-body .monaco-editor .contentWidgets .codicon-lightbulb { color: #fc0 }
-body .monaco-editor .contentWidgets .codicon-lightbulb-autofix { color: #75beff }
-body .monaco-editor .codelens-decoration, body .monaco-editor .codelens-decoration .codicon { color: #999 }
-body .monaco-editor .codelens-decoration>a:hover, body .monaco-editor .codelens-decoration>a:hover .codicon { color: #4e94ce!important }
-body .monaco-editor .findOptionsWidget { background-color: #252526; color: #ccc; box-shadow: 0 2px 8px #000 }
-body .monaco-editor .findMatch { background-color: rgba(234,92,0,.33) }
-body .monaco-editor .currentFindMatch { background-color: #515c6a }
-body .monaco-editor .findScope { background-color: rgba(58,61,65,.4) }
-body .monaco-editor .find-widget { background-color: #252526; box-shadow: 0 2px 8px #000; color: #ccc }
-body .monaco-editor .find-widget.no-results .matchesCount { color: #f48771 }
-body .monaco-editor .find-widget .monaco-sash { background-color: #454545; width: 3px!important; margin-left: -4px }
-body .monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: rgba(14,99,156,.8) }
-body .monaco-editor .folded-background { background-color: rgba(7,54,66,.3) }
-body .monaco-editor .line-numbers { color: #858585 }
-body .monaco-editor .current-line~.line-numbers { color: #c6c6c6 }
-body .monaco-editor .view-overlays .current-line { background-color: #073642 }
-body .monaco-editor .margin-view-overlays .current-line-margin { background-color: #073642; border: 0 }
-body .monaco-editor .lines-content .cigr { box-shadow: 1px 0 0 0 #404040 inset }
-body .monaco-editor .lines-content .cigra { box-shadow: 1px 0 0 0 #707070 inset }
-body .monaco-editor .minimap-slider, body .monaco-editor .minimap-slider .minimap-slider-horizontal { background: rgba(121,121,121,.2) }
-body .monaco-editor .minimap-slider:hover, body .monaco-editor .minimap-slider:hover .minimap-slider-horizontal { background: rgba(100,100,100,.35) }
-body .monaco-editor .minimap-slider.active, body .monaco-editor .minimap-slider.active .minimap-slider-horizontal { background: rgba(191,191,191,.2) }
-body .monaco-editor .minimap-shadow-visible { box-shadow: #000 -6px 0 6px -6px inset }
-body .monaco-editor .view-ruler { box-shadow: 1px 0 0 0 #5a5a5a inset }
-body .monaco-editor .scroll-decoration { box-shadow: #000 0 6px 6px -6px inset }
-body .monaco-editor .focused .selected-text { background-color: #073642 }
-body .monaco-editor .selected-text { background-color: #3a3d41 }
-body .monaco-editor .cursor { background-color: #819090; border-color: #819090; color: #7e6f6f }
-body .monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f48771'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left }
-body .monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left }
-body .monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%2375beff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left }
-body .monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left }
-body .monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: .667 }
-body .monaco-editor .squiggly-inline-deprecated { text-decoration: line-through; text-decoration-color: #839496 }
-body .extensions-viewlet>.extensions .codicon-error, body .markers-panel .marker-icon.codicon-error, body .monaco-dialog-box .dialog-message-row .codicon-error, body .monaco-editor .zone-widget .codicon-error { color: #f48771 }
-body .extension-editor .codicon-warning, body .extensions-viewlet>.extensions .codicon-warning, body .markers-panel .marker-icon.codicon-warning, body .monaco-dialog-box .dialog-message-row .codicon-warning, body .monaco-editor .zone-widget .codicon-warning { color: #cca700 }
-body .extension-editor .codicon-info, body .extensions-viewlet>.extensions .codicon-info, body .markers-panel .marker-icon.codicon-info, body .monaco-dialog-box .dialog-message-row .codicon-info, body .monaco-editor .zone-widget .codicon-info { color: #75beff }
-body .monaco-editor .marker-widget a, body .monaco-editor .marker-widget a.code-link span:hover, body .monaco-editor .monaco-editor-hover a, body .monaco-editor .parameter-hints-widget a, body .monaco-editor .suggest-widget a, body .monaco-editor-hover .hover-contents a.code-link span:hover { color: #3794ff }
-body .monaco-editor .reference-zone-widget .ref-tree .referenceMatch .highlight { background-color: rgba(234,92,0,.3) }
-body .monaco-editor .reference-zone-widget .preview .reference-decoration { background-color: rgba(255,143,0,.6) }
-body .monaco-editor .reference-zone-widget .ref-tree { background-color: #252526; color: #bbb }
-body .monaco-editor .reference-zone-widget .ref-tree .reference-file { color: #fff }
-body .monaco-editor .reference-zone-widget .ref-tree .monaco-list:focus .monaco-list-rows>.monaco-list-row.selected:not(.highlighted) { background-color: rgba(51,153,255,.2); color: #fff!important }
-body .monaco-editor .reference-zone-widget .preview .monaco-editor .inputarea.ime-input, body .monaco-editor .reference-zone-widget .preview .monaco-editor .margin, body .monaco-editor .reference-zone-widget .preview .monaco-editor .monaco-editor-background { background-color: #001f33 }
-body .monaco-editor .goto-definition-link { color: #4e94ce!important }
-body .monaco-editor .hoverHighlight { background-color: rgba(38,79,120,.25) }
-body .monaco-editor .monaco-editor-hover { background-color: #252526; border: 1px solid #454545; color: #ccc }
-body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69,69,69,.5) }
-body .monaco-editor .monaco-editor-hover hr { border-top: 1px solid rgba(69,69,69,.5); border-bottom: 0 solid rgba(69,69,69,.5) }
-body .monaco-editor .monaco-editor-hover .hover-row .actions { background-color: #2c2c2d }
-body .monaco-editor .monaco-editor-hover code, body .monaco-editor .parameter-hints-widget code, body .monaco-editor .suggest-widget code { background-color: rgba(10,10,10,.4) }
-body .monaco-editor.vs .valueSetReplacement { outline: solid 2px #888 }
-body .monaco-editor .tokens-inspect-widget { border: 1px solid #454545; background-color: #252526; color: #ccc }
-body .monaco-editor .tokens-inspect-widget .tokens-inspect-separator { background-color: #454545 }
-body .monaco-editor .detected-link-active { color: #4e94ce!important }
-body .monaco-editor .parameter-hints-widget { border: 1px solid #454545; background-color: #252526; color: #ccc }
-body .monaco-editor .parameter-hints-widget.multiple .body { border-left: 1px solid rgba(69,69,69,.5) }
-body .monaco-editor .parameter-hints-widget .signature.has-docs { border-bottom: 1px solid rgba(69,69,69,.5) }
-body .codicon-symbol-array, body .codicon-symbol-boolean { color: #ccc!important }
-body .codicon-symbol-class { color: #ee9d28!important }
-body .codicon-symbol-method { color: #b180d7!important }
-body .codicon-symbol-color, body .codicon-symbol-constant { color: #ccc!important }
-body .codicon-symbol-constructor { color: #b180d7!important }
-body .codicon-symbol-enum, body .codicon-symbol-value { color: #ee9d28!important }
-body .codicon-symbol-enum-member { color: #75beff!important }
-body .codicon-symbol-event { color: #ee9d28!important }
-body .codicon-symbol-field { color: #75beff!important }
-body .codicon-symbol-file, body .codicon-symbol-folder { color: #ccc!important }
-body .codicon-symbol-function { color: #b180d7!important }
-body .codicon-symbol-interface { color: #75beff!important }
-body .codicon-symbol-key, body .codicon-symbol-keyword, body .codicon-symbol-module, body .codicon-symbol-namespace, body .codicon-symbol-null, body .codicon-symbol-number, body .codicon-symbol-object, body .codicon-symbol-operator, body .codicon-symbol-package, body .codicon-symbol-property, body .codicon-symbol-reference, body .codicon-symbol-snippet, body .codicon-symbol-string, body .codicon-symbol-struct, body .codicon-symbol-text, body .codicon-symbol-type-parameter, body .codicon-symbol-unit { color: #ccc!important }
-body .codicon-symbol-variable { color: #75beff!important }
-body .monaco-editor .snippet-placeholder { background-color: rgba(124,124,124,.3); outline-color: transparent }
-body .monaco-editor .finish-snippet-placeholder { background-color: transparent; outline-color: #525252 }
-body .monaco-editor .suggest-widget .monaco-list .monaco-list-row .monaco-highlighted-label .highlight { color: #0097fb }
-body .monaco-editor .suggest-widget { color: #839496 }
-body .monaco-editor .focused .selectionHighlight { background-color: rgba(173,214,255,.15) }
-body .monaco-editor .selectionHighlight { background-color: rgba(173,214,255,.07) }
-body .monaco-editor .wordHighlight { background-color: rgba(87,87,87,.72) }
-body .monaco-editor .wordHighlightStrong { background-color: rgba(0,73,114,.72) }
-body .monaco-diff-editor .diff-review-line-number { color: #858585 }
-body .monaco-diff-editor .diff-review-shadow { box-shadow: #000 0 -6px 6px -6px inset }
-body .monaco-diff-editor .char-insert, body .monaco-diff-editor .line-insert, body .monaco-editor .char-insert, body .monaco-editor .inline-added-margin-view-zone, body .monaco-editor .line-insert { background-color: rgba(155,185,85,.2) }
-body .monaco-diff-editor .char-delete, body .monaco-diff-editor .line-delete, body .monaco-editor .char-delete, body .monaco-editor .inline-deleted-margin-view-zone, body .monaco-editor .line-delete { background-color: rgba(255,0,0,.2) }
-body .monaco-diff-editor.side-by-side .editor.modified { box-shadow: -6px 0 5px -5px #000 }
-body .mtk1 { color: #d4d4d4 }
-body .mtk2 { color: #1e1e1e }
-body .mtk3 { color: #c66 }
-body .mtk4 { color: #9cdcfe }
-body .mtk5 { color: #ce9178 }
-body .mtk6 { color: #b5cea8 }
-body .mtk7 { color: #608b4e }
-body .mtk8 { color: #4e98af }
-body .mtk9 { color: #839496 }
-body .mtk10 { color: #569cd6 }
-body .mtk11 { color: #cb4b16 }
-body .mtk12 { color: #dc322f }
-body .mtk13 { color: #2aa198 }
-body .mtk14 { color: #b58900 }
-body .mtk15 { color: #d33682 }
-body .mtk16 { color: #dcdcdc }
-body .mtk17 { color: gray }
-body .mtk18 { color: #268bd2 }
-body .mtk19 { color: #93a1a1 }
-body .mtk20 { color: #859900 }
-body .mtk21 { color: #f44747 }
-body .mtk22 { color: #c586c0 }
-body .mtk23 { color: #eee8d5 }
-body .mtk24 { color: #219186 }
-body .mtk25 { color: #6c71c4 }
-body .mtk26 { color: #e0eddd }
-body .mtk27 { color: #657b83 }
-body .mtk28 { color: #a79873 }
-body .mtk29 { color: #dd6a6f }
-body .mtk30 { color: #5bb498 }
-body .mtk31 { color: #909090 }
-body .mtk32 { color: #789 }
-body .mtk33 { color: #f0f }
-body .mtk34 { color: #b46695 }
-body .mtk35 { color: red }
-body .mtk36 { color: #4f76ac }
-body .mtk37 { color: #3dc9b0 }
-body .mtk38 { color: #74b0df }
-body .mtk39 { color: #4864aa }
-body .mtki { font-style: italic }
-body .mtkb { font-weight: 700 }
-body .mtku { text-decoration: underline; text-underline-position: under }
+body .monaco-editor .minimap-slider, body .monaco-editor .minimap-slider .minimap-slider-horizontal { background: rgba(121, 121, 121, 0.2); }
+body .monaco-editor .minimap-slider:hover, body .monaco-editor .minimap-slider:hover .minimap-slider-horizontal { background: rgba(100, 100, 100, 0.35); }
+body .monaco-editor .minimap-slider.active, body .monaco-editor .minimap-slider.active .minimap-slider-horizontal { background: rgba(191, 191, 191, 0.2); }
+body .monaco-editor .minimap-shadow-visible { box-shadow: #000000 -6px 0 6px -6px inset; }
+body .monaco-editor .scroll-decoration { box-shadow: #000000 0 6px 6px -6px inset; }
+body .monaco-editor .focused .selected-text { background-color: rgba(128, 0, 0, 0.5); }
+body .monaco-editor .selected-text { background-color: #3a3d41; }
+body .monaco-editor, body .monaco-editor-background, body .monaco-editor .inputarea.ime-input { background-color: #200020; }
+body .monaco-editor, body .monaco-editor .inputarea.ime-input { color: #d0d0ff; }
+body .monaco-editor .margin { background-color: #200020; }
+body .monaco-editor .rangeHighlight { background-color: rgba(255, 255, 255, 0.04); }
+body .vs-whitespace { color: #bfbfbf !important; }
+body .monaco-editor .view-overlays .current-line { background-color: rgba(128, 0, 0, 0.25); }
+body .monaco-editor .margin-view-overlays .current-line-margin { background-color: rgba(128, 0, 0, 0.25); border: none; }
+body .monaco-editor .lines-content .cigr { box-shadow: 1px 0 0 0 #404040 inset; }
+body .monaco-editor .lines-content .cigra { box-shadow: 1px 0 0 0 #707070 inset; }
+body .monaco-editor .line-numbers { color: #858585; }
+body .monaco-editor .current-line ~ .line-numbers { color: #c6c6c6; }
+body .monaco-editor .view-ruler { box-shadow: 1px 0 0 0 #5a5a5a inset; }
+body .monaco-editor .cursor { background-color: #7070ff; border-color: #7070ff; color: #8f8f00; }
+body .monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23ea4646'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+body .monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%234d9e4d'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+body .monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23008000'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+body .monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+body .showUnused .monaco-editor .squiggly-inline-unnecessary { opacity: 0.667; will-change: opacity; }
+body .monaco-editor.vs .valueSetReplacement { outline: solid 2px #888888; }
+body .monaco-diff-editor .diff-review-line-number { color: #858585; }
+body .monaco-diff-editor .diff-review-shadow { box-shadow: #000000 0 -6px 6px -6px inset; }
+body .monaco-editor .line-insert, body .monaco-editor .char-insert { background-color: rgba(155, 185, 85, 0.2); }
+body .monaco-diff-editor .line-insert, body .monaco-diff-editor .char-insert { background-color: rgba(155, 185, 85, 0.2); }
+body .monaco-editor .inline-added-margin-view-zone { background-color: rgba(155, 185, 85, 0.2); }
+body .monaco-editor .line-delete, body .monaco-editor .char-delete { background-color: rgba(255, 0, 0, 0.2); }
+body .monaco-diff-editor .line-delete, body .monaco-diff-editor .char-delete { background-color: rgba(255, 0, 0, 0.2); }
+body .monaco-editor .inline-deleted-margin-view-zone { background-color: rgba(255, 0, 0, 0.2); }
+body .monaco-diff-editor.side-by-side .editor.modified { box-shadow: -6px 0 5px -5px #000000; }
+body .monaco-editor .bracket-match { background-color: rgba(0, 100, 0, 0.1); }
+body .monaco-editor .bracket-match { border: 1px solid #888888; }
+body .monaco-editor .codelens-decoration { color: #999999; }
+body .monaco-editor .codelens-decoration > a:hover { color: #4e94ce !important; }
+body .monaco-editor .findOptionsWidget { background-color: #2d2d30; }
+body .monaco-editor .findOptionsWidget { box-shadow: 0 2px 8px #000000; }
+body .monaco-editor .hoverHighlight { background-color: rgba(38, 79, 120, 0.25); }
+body .monaco-editor .monaco-editor-hover { background-color: #2d2d30; }
+body .monaco-editor .monaco-editor-hover { border: 1px solid #454545; }
+body .monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+body .monaco-editor .monaco-editor-hover a { color: #3794ff; }
+body .monaco-editor .monaco-editor-hover code { background-color: rgba(10, 10, 10, 0.4); }
+body .monaco-editor .detected-link-active { color: #4e94ce !important; }
+body .monaco-editor .monaco-editor-overlaymessage .anchor { border-top-color: #007acc; }
+body .monaco-editor .monaco-editor-overlaymessage .message { border: 1px solid #007acc; }
+body .monaco-editor .monaco-editor-overlaymessage .message { background-color: #063b49; }
+body .monaco-editor .parameter-hints-widget { border: 1px solid #454545; }
+body .monaco-editor .parameter-hints-widget.multiple .body { border-left: 1px solid rgba(69, 69, 69, 0.5); }
+body .monaco-editor .parameter-hints-widget .signature.has-docs { border-bottom: 1px solid rgba(69, 69, 69, 0.5); }
+body .monaco-editor .parameter-hints-widget { background-color: #2d2d30; }
+body .monaco-editor .parameter-hints-widget a { color: #3794ff; }
+body .monaco-editor .parameter-hints-widget code { background-color: rgba(10, 10, 10, 0.4); }
+body .monaco-editor .suggest-widget .monaco-list .monaco-list-row .monaco-highlighted-label .highlight { color: #0097fb; }
+body .monaco-editor .suggest-widget { color: #d0d0ff; }
+body .monaco-editor .suggest-widget a { color: #3794ff; }
+body .monaco-editor .suggest-widget code { background-color: rgba(10, 10, 10, 0.4); }
+body .monaco-editor .focused .selectionHighlight { background-color: rgba(173, 214, 255, 0.15); }
+body .monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.07); }
+body .monaco-editor .wordHighlight { background-color: rgba(87, 87, 87, 0.72); }
+body .monaco-editor .wordHighlightStrong { background-color: rgba(0, 73, 114, 0.72); }
+body .monaco-editor .accessibilityHelpWidget { background-color: #2d2d30; }
+body .monaco-editor .accessibilityHelpWidget { box-shadow: 0 2px 8px #000000; }
+body .monaco-editor .tokens-inspect-widget { border: 1px solid #454545; }
+body .monaco-editor .tokens-inspect-widget .tokens-inspect-separator { background-color: #454545; }
+body .monaco-editor .tokens-inspect-widget { background-color: #2d2d30; }
+body .monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+body .monaco-editor .currentFindMatch { background-color: #515c6a; }
+body .monaco-editor .findScope { background-color: rgba(58, 61, 65, 0.4); }
+body .monaco-editor .find-widget { background-color: #2d2d30; }
+body .monaco-editor .find-widget { box-shadow: 0 2px 8px #000000; }
+body .monaco-editor .find-widget.no-results .matchesCount { color: #f48771; }
+body .monaco-editor .find-widget .monaco-sash { background-color: #454545; width: 3px !important; margin-left: -4px;}
+body .monaco-editor .reference-zone-widget .ref-tree .referenceMatch { background-color: rgba(234, 92, 0, 0.3); }
+body .monaco-editor .reference-zone-widget .preview .reference-decoration { background-color: rgba(255, 143, 0, 0.6); }
+body .monaco-editor .reference-zone-widget .ref-tree { background-color: #252526; }
+body .monaco-editor .reference-zone-widget .ref-tree { color: #bbbbbb; }
+body .monaco-editor .reference-zone-widget .ref-tree .reference-file { color: #ffffff; }
+body .monaco-editor .reference-zone-widget .ref-tree .monaco-tree.focused .monaco-tree-rows > .monaco-tree-row.selected:not(.highlighted) { background-color: rgba(51, 153, 255, 0.2); }
+body .monaco-editor .reference-zone-widget .ref-tree .monaco-tree.focused .monaco-tree-rows > .monaco-tree-row.selected:not(.highlighted) { color: #ffffff !important; }
+body .monaco-editor .reference-zone-widget .preview .monaco-editor .monaco-editor-background,.monaco-editor .reference-zone-widget .preview .monaco-editor .inputarea.ime-input { background-color: #001f33;}
+body .monaco-editor .reference-zone-widget .preview .monaco-editor .margin { background-color: #001f33;}
+body .monaco-editor .goto-definition-link { color: #4e94ce !important; }
+body .mtk1 { color: #d4d4d4; }
+body .mtk2 { color: #200020; }
+body .mtk3 { color: #cc6666; }
+body .mtk4 { color: #9cdcfe; }
+body .mtk5 { color: #ce9178; }
+body .mtk6 { color: #b5cea8; }
+body .mtk7 { color: #608b4e; }
+body .mtk8 { color: #404080; }
+body .mtk9 { color: #569cd6; }
+body .mtk10 { color: #666666; }
+body .mtk11 { color: #707090; }
+body .mtk12 { color: #8080a0; }
+body .mtk13 { color: #7090b0; }
+body .mtk14 { color: #dcdcdc; }
+body .mtk15 { color: #808080; }
+body .mtk16 { color: #50a0a0; }
+body .mtk17 { color: #90e0e0; }
+body .mtk18 { color: #c0f0f0; }
+body .mtk19 { color: #009090; }
+body .mtk20 { color: #70e080; }
+body .mtk21 { color: #70e0a0; }
+body .mtk22 { color: #b000b0; }
+body .mtk23 { color: #3080a0; }
+body .mtk24 { color: #3cb0d0; }
+body .mtk25 { color: #60b0ff; }
+body .mtk26 { color: #f44747; }
+body .mtk27 { color: #cc66ff; }
+body .mtk28 { color: #400080; }
+body .mtk29 { color: #ffff00; }
+body .mtk30 { color: #a080ff; }
+body .mtk31 { color: #80a0ff; }
+body .mtk32 { color: #c586c0; }
+body .mtk33 { color: #a0a0ff; }
+body .mtk34 { color: #d0d0ff; }
+body .mtk35 { color: #c080c0; }
+body .mtk36 { color: #a79873; }
+body .mtk37 { color: #dd6a6f; }
+body .mtk38 { color: #5bb498; }
+body .mtk39 { color: #909090; }
+body .mtk40 { color: #778899; }
+body .mtk41 { color: #ff00ff; }
+body .mtk42 { color: #805080; }
+body .mtk43 { color: #b46695; }
+body .mtk44 { color: #b0fff0; }
+body .mtk45 { color: #999999; }
+body .mtk46 { color: #ff0000; }
+body .mtk47 { color: #a00050; }
+body .mtk48 { color: #4f76ac; }
+body .mtk49 { color: #3dc9b0; }
+body .mtk50 { color: #74b0df; }
+body .mtk51 { color: #008080; }
+body .mtk52 { color: #80b0b0; }
+body .mtk53 { color: #4864aa; }
+body .mtki { font-style: italic; }
+body .mtkb { font-weight: bold; }
+body .mtku { text-decoration: underline; text-underline-position: under; }
