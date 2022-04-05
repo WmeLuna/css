@@ -17,6 +17,17 @@
 #side-nav .sidebar__drawer, #side-nav .sidebar__items:not(.chunks-wrapper){
   filter: var(--filt) !important
 }
+.sidebar .navlink .navlink_labelcontainer,
+.sidebar .navlink .navlink_chevronbutton,
+.sidebar .navlink+ul.chunks-wrapper .block-chunk .navlink_namecontainer,
+.sidebar ul.main-sidebar__nav .sidebar__drawer a.navlink.modulelink+ul.sidebar__items li.sidebar__item.block-chunk {
+  border-radius: 0 !important;
+}
+
+.sidebar .navlink.chunklink.chunklink-active {
+  filter: hue-rotate(45deg) !important;
+}
+
 .cui .sidebar.sidebar--indigo a {
   color: #fff !important;
 }
