@@ -27,7 +27,7 @@
 .sidebar .navlink.chunklink.chunklink-active {
   filter: hue-rotate(45deg) !important;
 }
-.sidebar ul.main-sidebar__nav>.sidebar__drawer:not(:last-child) {
+body .sidebar ul.main-sidebar__nav>.sidebar__drawer:not(:last-child) {
     margin-bottom: 0 !important
 }
 .sidebar .navlink.modulelink+ul.sidebar__items>.sidebar__drawer {
