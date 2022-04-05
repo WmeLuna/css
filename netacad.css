@@ -14,7 +14,7 @@
   filter: invert(1) hue-rotate(-90deg) !important
 
 }
-#side-nav .sidebar__drawer, #side-nav .sidebar__items{
+#side-nav .sidebar__drawer, #side-nav .sidebar__items:not(.chunks-wrapper){
   filter: var(--filt) !important
 }
 .cui .sidebar.sidebar--indigo a {
