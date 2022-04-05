@@ -10,7 +10,16 @@
 .cui .cisco-minisidebar .sidebar, .content tbody {
     filter: var(--filt) !important
 }
+#side-nav{
+  filter: invert(1) hue-rotate(-90deg) !important
 
+}
+#side-nav .sidebar__drawer, #side-nav .sidebar__items{
+  filter: var(--filt) !important
+}
+.cui .sidebar.sidebar--indigo a {
+  color: #fff !important;
+}
 .cui .sidebar li.sidebar__item {
     background-color: var(--color)
 }
@@ -22,4 +31,9 @@
     display: block !important;
     width: unset !important;
     height: unset !important;
+}
+/*Netacad debloat section*/
+#onetrust-consent-sdk/*cookie dialouge*/,
+#page-footer/*footer*/{
+    display:none !important;
 }
