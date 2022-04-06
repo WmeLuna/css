@@ -14,6 +14,10 @@ img[alt="webMathematica generated answer key"]{filter: var(--filter)!important}
     background: var(--color);
     filter: var(--filt) !important;
 }
+.indent select {
+  filter: var(--filt) !important;
+  color: white !important;
+}
 .css-6nwyf1,.css-6nwyf1:hover, .css-6nwyf1:focus {
     border-color: var(--color);
     background-color: var(--color);
