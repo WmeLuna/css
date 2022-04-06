@@ -14,7 +14,7 @@ img[alt="webMathematica generated answer key"]{filter: var(--filter)!important}
     background: var(--color);
     filter: var(--filt) !important;
 }
-.indent select {
+.indent select, .qTextField input {
   filter: var(--filt) !important;
   color: white !important;
 }
