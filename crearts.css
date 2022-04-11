@@ -42,3 +42,11 @@
 .members-3WRCEx>div {
     background-color: transparent;
 }
+
+/* amoledcord fixes */
+body #app-mount .panels-3wFtMD {
+    background-color: var(--background-secondary);
+}
+body #app-mount .container-2o3qEW, #app-mount .membersWrap-3NUR2t, #app-mount .members-3WRCEx, #app-mount .members-3WRCEx > div {
+    background-color: var(--background-secondary);
+}
