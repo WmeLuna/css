@@ -43,6 +43,9 @@ body .sidebar ul.main-sidebar__nav>.sidebar__drawer:not(:last-child) {
     color: var(--color) !important;
     filter: var(--filt)
 }
+.cui .main-content-wrapper{
+    max-width: unset !important;
+}
 #questions .question.hidden {
     display: block !important;
     width: unset !important;
