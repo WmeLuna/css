@@ -23,7 +23,7 @@
 /* Needed for proper positioning */.guilds-2JjMmN .scroller-3X7KbA { contain: none !important;} 
 /* Pinned Favorites */.guilds-2JjMmN .scroller-3X7KbA > .listItem-3SmSlK:nth-of-type(2) {position: fixed;z-index: 1;bottom: 20px;}
 /* Pinned Home Button */.tutorialContainer-1pL9QS {position: fixed;z-index: 1;}
-/* Fix positions for Home*/.guilds-2JjMmN .scroller-3X7KbA > [aria-label], .guilds-2JjMmN .scroller-3X7KbA > [style]:nth-child(2) { margin-top: 55px;} .guilds-2JjMmN .scroller-3X7KbA > [style] ~ [aria-label] { margin-top: 0px;}
+/* Fix positions for Home*//*.guilds-2JjMmN .scroller-3X7KbA > [aria-label],*/ .guilds-2JjMmN .scroller-3X7KbA > [style]:nth-child(2) { margin-top: 55px;} .guilds-2JjMmN .scroller-3X7KbA > [style] ~ [aria-label] { margin-top: 0px;}
 /* Fix positions for Favorites*/ .guilds-2JjMmN .scroller-3X7KbA > div:last-of-type {margin-bottom: 65px;position: unset !important;}
 /* Fix positions for Home (unread dm fix) .guilds-2JjMmN .scroller-3X7KbA > div[style]:nth-of-type(3) {margin-top: 55px;}
 
