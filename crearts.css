@@ -34,3 +34,6 @@
 --SKIN-background-l: 8%;
 --SKIN-background-a: 1.0;
 }
+
+/* memberlist fix since im not importing full theme */
+.container-2o3qEW,.container-NkLXgf,.membersWrap-3NUR2t{background:var(--background-secondary);border-radius:var(--radius-primary)}.container-2Oqvgx,.members-3WRCEx{background:0 0!important}.members-3WRCEx,.members-3WRCEx>div{background-color:transparent}
