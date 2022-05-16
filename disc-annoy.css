@@ -135,3 +135,34 @@ Modified from https://leeprky.github.io/snippits/css-snippits/colour-channel-ico
     d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z");
     transform: scale(1.1) translate(-1.5px, -1px);
 }
+
+/* modified from https://ptb.discord.com/channels/86004744966914048/836694789898109009/965510114725490718 */
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]::before {
+    content: "Developer Settings";
+    position: absolute;
+    top: -35px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font-display);
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--channels-default);
+    width: 90%;
+    
+    padding-top: 14px;
+    pointer-events: none;
+}
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] {
+    overflow: visible !important;
+    margin-top: 28.5px;
+}
+    /*had to sacrafice setting icons for these*/
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] ~ .item-3XjbnG.themed-2-lozF::before,.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]::before {
+  mask:unset !important;
+  -webkit-mask:unset !important;
+  background: unset !important;
+  margin:unset !important;
+}
+.item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] ~ .item-3XjbnG.themed-2-lozF::before {
+  content: unset;
+}
