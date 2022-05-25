@@ -31,6 +31,8 @@
 .menu-1QACrS, .colorDefault-CDqZdO { 
     border-radius: 15px; 
 }
+/* https://ptb.discord.com/channels/86004744966914048/836694789898109009/949934727266177045 */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK,.timestampVisibleOnHover-9PEuZS) time::after{content:" ("attr(aria-label)")";font-size:.625rem;font-weight:400;line-height:1}.edited-1v5nT8:not(.message-translate-indicator){display:none}
 
 /* https://ptb.discord.com/channels/538759280057122817/755005803303403570/940684000668819506 */
 [class*=jumpToPresentBar]{display:contents}[class*=jumpToPresentBar]>button:first-child{display:none}[class*=jumpToPresentBar]>button:last-child{position:absolute;bottom:24px;right:22px;padding:8px!important;height:auto;background-color:var(--background-secondary);border-radius:100px;display:flex;font-size:0;color:transparent;transition:font-size .2s .1s,color .2s,padding .4s .1s}[class*=jumpToPresentBar]>button svg{order:-1;height:24px;width:24px;top:unset;margin:0;color:var(--text-normal);transition:margin .6s}[class*=jumpToPresentBar]:hover>button{padding:8px 18px!important;font-size:14px;color:var(--text-normal);transition:font-size .2s,color .2s .1s,padding .4s}[class*=jumpToPresentBar]:hover>button svg{margin-right:2px;margin-left:-6px}
