@@ -169,8 +169,4 @@ Modified from https://leeprky.github.io/snippits/css-snippits/colour-channel-ico
 .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] ~ .item-3XjbnG.themed-2-lozF::before {
   content: unset;
 }
-/*fix for https://github.com/DiscordStyles/RadialStatus/issues/36*/
-/*should affect more but only fixes that issue???*/
-#app-mount .wrapper-1VLyxH rect {
-  width: 80%;
-}
+
