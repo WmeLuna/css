@@ -180,6 +180,7 @@
 }
 
 /* Spacing */
+[aria-controls="game-activity-tab"],
 [aria-controls="pc-updater-tab"],
 [aria-controls="payment-flow-modals-tab"],
 [aria-controls="hypesquad-online-tab"],
