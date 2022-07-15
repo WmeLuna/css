@@ -55,7 +55,7 @@
 /* Discord */
 .item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"] {
   overflow: visible !important;
-  margin-top: 16px;
+  margin-top: 42.5px;
 }
 
 .item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"]::after {
@@ -78,7 +78,7 @@
 /* Powercord */
 .item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"] {
   overflow: visible !important;
-  margin-top: 16px;
+  margin-top: 42.5px;
 }
 
 .item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"]::after {
@@ -100,7 +100,7 @@
 /* Better Discord */
 .bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"] {
   overflow: visible !important;
-  margin-top: 16px;
+  margin-top: 42.5px;
 }
 
 .bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"]::after {
@@ -122,7 +122,7 @@
 /* Dev */
 .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"] {
   overflow: visible !important;
-  margin-top: 16px;
+  margin-top: 42.5px;
 }
 
 .item-3XjbnG.themed-2-lozF[aria-controls="experiments-tab"]::after {
