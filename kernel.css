@@ -151,8 +151,12 @@
   order: -2;
 }
 
+[aria-controls="gm-custom-css-tab"] {
+  order: 1;
+}
+
 [aria-controls="topaz-tab"] {
-  order:-3;
+  order: 2;
 }
 
 [aria-controls="experiments-tab"],
@@ -160,19 +164,19 @@
 [aria-controls="hotspot-options-tab"],
 [aria-controls="dismissible-content-options-tab"],
 [aria-controls="payment-flow-modals-tab"] {
-  order: 1;
-}
-
-[aria-controls="logout-tab"] {
-  order: 2;
-}
-
-.info-3pQQBb {
   order: 3;
 }
 
-.socialLinks-3ywLUf {
+[aria-controls="logout-tab"] {
   order: 4;
+}
+
+.info-3pQQBb {
+  order: 5;
+}
+
+.socialLinks-3ywLUf {
+  order: 6;
 }
 
 /* Spacing */
