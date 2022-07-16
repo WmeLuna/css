@@ -1,8 +1,16 @@
+.kernel-settings.item-3XjbnG.themed-2-lozF[aria-controls="kernel-packages-tab"],
 .bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"],
 .item-3XjbnG.themed-2-lozF[aria-controls="pc-modulemanager-plugins-tab"],
 .item-3XjbnG.themed-2-lozF[aria-controls="cumcord_plugins-tab"],
 .item-3XjbnG.themed-2-lozF[aria-controls="gm-settings-tab"] {
   overflow: visible !important;
+}
+.kernel-settings.item-3XjbnG.themed-2-lozF[aria-controls="kernel-packages-tab"]::before{
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 13 13'%3E%3Cpath fill='%23f4f4f4' stroke='null' stroke-width='.26' d='M0 0h13v13H0z'/%3E%3Cpath fill='%23acd46c' fill-rule='evenodd' d='M1.085 1.095c-.003.009-.005 1.479-.003 3.266l.003 3.25h2.198V1.085l-1.096-.003c-.87-.003-1.097 0-1.102.013m4.342 0c-.003.009-.008 1.959-.009 4.332l-.003 4.316-2.164.007-2.164.007v2.184l2.181.003 2.181.003V9.79h2.132l.003 1.076.003 1.076 2.181.003 2.181.003V9.75H7.618l-.003-4.332-.003-4.332-1.089-.003c-.864-.003-1.09 0-1.095.013m4.329 0c-.003.009-.005 1.479-.003 3.266l.003 3.25 1.095.003 1.095.003-.003-3.266-.003-3.267-1.089-.003c-.864-.003-1.09 0-1.095.013'/%3E%3C/svg%3E");
+  pointer-events: none;
+  position: absolute;
+  left: -5px;
+  top: -25px;
 }
 .bdcompat-settings-item-settings.item-3XjbnG.themed-2-lozF[aria-controls="settings-tab"]::before {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 2000 2000' class='bd-logo'%3E%3Cg%3E%3Cpath fill='%233E82E5' d='M1402.2,631.7c-9.7-353.4-286.2-496-642.6-496H68.4v714.1l442,398V490.7h257c274.5,0,274.5,344.9,0,344.9H597.6v329.5h169.8c274.5,0,274.5,344.8,0,344.8h-699v354.9h691.2c356.3,0,632.8-142.6,642.6-496c0-162.6-44.5-284.1-122.9-368.6C1357.7,915.8,1402.2,794.3,1402.2,631.7z'%3E%3C/path%3E%3Cpath fill='%23FFFFFF' d='M1262.5,135.2L1262.5,135.2l-76.8,0c26.6,13.3,51.7,28.1,75,44.3c70.7,49.1,126.1,111.5,164.6,185.3c39.9,76.6,61.5,165.6,64.3,264.6l0,1.2v1.2c0,141.1,0,596.1,0,737.1v1.2l0,1.2c-2.7,99-24.3,188-64.3,264.6c-38.5,73.8-93.8,136.2-164.6,185.3c-22.6,15.7-46.9,30.1-72.6,43.1h72.5c346.2,1.9,671-171.2,671-567.9V716.7C1933.5,312.2,1608.7,135.2,1262.5,135.2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E") !important;
