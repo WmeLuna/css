@@ -61,12 +61,12 @@
 }
 
 /* Discord */
-.item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"] {
+.item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"]:not(.item-3mHhwr) {
   overflow: visible !important;
   margin-top: 42.5px;
 }
 
-.item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"]::after {
+.item-3XjbnG.themed-2-lozF[aria-controls="changelog-tab"]:not(.item-3mHhwr)::after {
   content: "Discord";
   position: absolute;
   top: -35px;
@@ -155,7 +155,7 @@
   order: -1;
 }
 
-[aria-controls="changelog-tab"] {
+[aria-controls="changelog-tab"]:not(.item-3mHhwr) {
   order: -2;
 }
 
