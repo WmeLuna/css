@@ -1,0 +1,60 @@
+body.dark-theme mw-fab-link {
+--fab-icon-container-bg-color:#540488!important;
+}
+
+body.dark-theme mws-message-part-content {
+--empty-bg-color:#000!important;
+--incoming-bg-color:#232323!important;
+--incoming-color:#fff!important;
+--incoming-edit-bg-color:#fff!important;
+--incoming-edit-color:#000!important;
+--message-border-color:#000!important;
+--xms-outgoing-bg-color:#540488!important;
+--xms-outgoing-color:#fff!important;
+--xms-outgoing-edit-bg-color:#540488!important;
+--xms-outgoing-edit-color:#000!important;
+--xms-outgoing-selection-color:#fff!important;
+--rcs-outgoing-bg-color:#540488!important;
+--rcs-outgoing-color:#fff!important;
+--rcs-outgoing-edit-bg-color:#540488!important;
+--rcs-outgoing-edit-color:#000!important;
+}
+
+body.dark-theme mw-main-nav {
+--main-nav-host-bg-color:#000!important;
+--main-nav-host-border-color:#000!important;
+}
+
+.input-background {
+display:none!important;
+}
+
+body.dark-theme mw-conversation-container {
+--conv-container-host-bg-color:#000!important;
+}
+
+body.dark-theme mws-header {
+--header-bg-color:#000!important;
+}
+
+body.dark-theme mw-main-landing {
+--main-landing-host-bg-color:#000!important;
+}
+
+:root {
+--side-panel-width:350px;
+--content-width:1460px;
+--content-margin:0 21px auto;
+}
+
+@media (min-width: 1440px) {
+.main-nav {
+min-width:var(--side-panel-width)!important;
+width:var(--side-panel-width)!important;
+}
+
+div.content {
+max-width:var(--content-width)!important;
+margin:var(--content-margin)!important;
+}
+}
