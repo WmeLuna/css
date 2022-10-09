@@ -1,0 +1,32 @@
+@import url("https://comfy-themes.github.io/Spicetify/Comfy/app.css");
+#mainImage, #preloadImage {
+  display: none;
+}
+
+:root .Root__now-playing-bar .playback-bar .playback-progressbar > div > div > div > div {
+  width: 100%;
+  background-image: unset;
+  background-color: var(--spice-card);
+  transition: all 1s linear;
+}
+:root .Root__now-playing-bar .playback-bar .playback-progressbar > div[style="--progress-bar-transform:0%;"] > div > div > div {
+    transition-duration: 0s;
+  }
+:root {
+    --spice-rgb-shadow: unset
+}
+.main-navBar-navBar::before {
+	content: "Pages";
+    visibility: visible;
+    width: unset;
+    height: unset;
+    line-height: unset;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+	padding-top: 10px;
+}
+:root .Root__nav-bar ul.main-navBar-entryPoints {
+  margin: 12px 12px 0 12px;
+}
