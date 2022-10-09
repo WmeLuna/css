@@ -13,7 +13,8 @@
     transition-duration: 0s;
   }
 :root {
-    --spice-rgb-shadow: unset
+  --spice-rgb-shadow: unset;
+  --spice-heart: var(--spice-card);
 }
 .main-navBar-navBar::before {
 	content: "Pages";
@@ -29,4 +30,8 @@
 }
 :root .Root__nav-bar ul.main-navBar-entryPoints {
   margin: 12px 12px 0 12px;
+}
+
+.cover-art {
+  background-color: unset !important;
 }
