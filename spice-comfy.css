@@ -53,3 +53,6 @@
 .main-yourEpisodesButton-yourEpisodesIcon svg path {
   fill: var(--spice-sidebar) !important;
 }
+:root .os-scrollbar-vertical .os-scrollbar-handle {
+  border: unset;
+}
