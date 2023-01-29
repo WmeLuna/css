@@ -47,3 +47,9 @@
   color: var(--spice-sidebar);
   background: var(--spice-text) !important;
 }
+.main-yourEpisodesButton-yourEpisodesIcon {
+  background: var(--spice-text) !important;
+}
+.main-yourEpisodesButton-yourEpisodesIcon svg path {
+  fill: var(--spice-sidebar) !important;
+}
