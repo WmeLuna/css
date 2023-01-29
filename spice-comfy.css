@@ -9,7 +9,7 @@
   background-color: var(--spice-card);
   transition: all 1s linear;
 }
-:root .Root__now-playing-bar .playback-bar .playback-progressbar > div[style="--progress-bar-transform:0%;"] > div > div > div {
+:root .Root__now-playing-bar .playback-bar .playback-progressbar > div[style^="--progress-bar-transform:0"] > div > div > div {
     transition-duration: 0s;
   }
 :root {
