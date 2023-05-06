@@ -1,3 +1,25 @@
+body,
+html {
+    background: black !important;
+}
+
 .text-base {
     max-width: 90%
+}
+.md\:flex-col{
+  flex-direction: row
+}
+.md\:flex-col > div:not(.flex){
+  margin-right: 10px;
+}
+.md\:flex-col > div:not(.flex) .gap-2 {
+ font-size: 0;
+ gap: 0
+}
+.dark\:bg-gray-800 {
+    background: black !important;
+    color: #eee !important;
+}
+.dark .dark\:bg-\[\#444654\] {
+    background: #111 !important;
 }
