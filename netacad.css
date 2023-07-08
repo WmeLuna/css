@@ -33,6 +33,12 @@ body .sidebar ul.main-sidebar__nav>.sidebar__drawer:not(:last-child) {
 .sidebar .navlink.modulelink+ul.sidebar__items>.sidebar__drawer {
     margin: unset !important
 }
+.sidebar .main-sidebar__nav {
+  padding: initial !important
+}
+.sidebar .navlink.modulelink {
+  margin-bottom: 0
+}
 .cui .sidebar.sidebar--indigo a {
   color: #fff !important;
 }
